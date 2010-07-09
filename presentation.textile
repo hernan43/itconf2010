@@ -2,5 +2,41 @@ title: In with the new
 code-theme: blackboard
 
 h1. In with the New
+
 h2. MSU IT Conference 2010
+
+<center>
+!images/cray.jpg!
+</center>
+
+h1. Who am I?
+
+<center>
+!images/code_monkey.jpg!
+</center>
+
+h1. Where do I hail from?
+
+<center>
+!images/road_warrior.jpg!
+</center>
+
+h1. What do we do?
+
+<center>
+!images/question.jpg!
+</center>
+
+h1. What kind of stuff do I work with?
+
+!images/python.gif!
+!images/ruby.gif!
+!images/php.gif!
+!images/vmware.gif!
+!images/rails.png!
+!images/django.gif!
+!images/jquery.gif!
+!images/node.png!
+!images/mongodb.png!
+!images/redis.gif!
 
