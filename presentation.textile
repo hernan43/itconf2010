@@ -1,14 +1,6 @@
 title: In with the new
 code-theme: blackboard
 
-h1. In with the New
-
-h2. MSU IT Conference 2010
-
-<center>
-!images/cray.jpg!
-</center>
-
 h1. Who am I?
 
 <center>
@@ -29,6 +21,7 @@ h1. What do we do?
 
 h1. What kind of stuff do I work with?
 
+<center>
 !images/python.gif!
 !images/ruby.gif!
 !images/php.gif!
@@ -39,8 +32,47 @@ h1. What kind of stuff do I work with?
 !images/node.png!
 !images/mongodb.png!
 !images/redis.gif!
+</center>
 
 h1. What is this talk about?
 
 !images/what.png!
+
+h1. What is this talk about?
+
+h2. continued
+
+<p>&nbsp;</p>
+
+<ul>
+<li>Distributed Version Control</li>
+<li>NoSQL</li>
+<li>Web Frameworks</li>
+<li>Event Driven Servers</li>
+<li>Message Queue Servers</li>
+</ul>
+
+h1. Do I actually use any of this stuff?
+
+<center>
+!images/wrench.jpg!
+</center>
+
+h1. Distributed Version Control
+
+<center>
+!images/distributed.gif!
+</center>
+
+h1. Traditional Version Control
+
+<center>
+!images/traditional_vc.png!
+</center>
+
+h1. Distributed Version Control
+
+<center>
+!images/distributed_vc.png!
+</center>
 
