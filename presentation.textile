@@ -40,3 +40,7 @@ h1. What kind of stuff do I work with?
 !images/mongodb.png!
 !images/redis.gif!
 
+h1. What is this talk about?
+
+!images/what.png!
+
