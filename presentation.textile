@@ -64,15 +64,93 @@ h1. Distributed Version Control
 !images/distributed.gif!
 </center>
 
-h1. Traditional Version Control
+h1. Centralized Model
 
 <center>
 !images/traditional_vc.png!
 </center>
 
-h1. Distributed Version Control
+h1. One master copy
+
+<center>
+!images/master.jpg!
+</center>
+
+h1. All collaborators work on the same repository
+
+<center>
+!images/collaborators.jpg!
+</center>
+
+h1. Network is required for most operations
+
+<center>
+!images/internet.jpg!
+</center>
+
+h1. Distributed Model
 
 <center>
 !images/distributed_vc.png!
+</center>
+
+h1. Multiple "masters"
+
+<center>
+!images/masters.jpg!
+</center>
+
+h1. Everyone works on their own copy of the repository
+
+<p></p>
+
+<center>
+!images/everymanforhimself.jpg!
+</center>
+
+h1. No network needed
+
+<center>
+!images/nonetwork.jpg!
+</center>
+
+h1. It's not too late, convert today!
+
+<center>
+!images/conversion.jpg!
+</center>
+
+h1. No platform left behind
+
+<center>
+!images/linux.jpg!
+!images/osx.jpg!
+
+!images/windows.jpg!
+!images/bsd.jpg!
+</center>
+
+h1. Command line utils
+
+<center>
+!images/commandline.png!
+</center>
+
+h1. GUI utils
+
+<center>
+!images/tortoise.jpg!
+</center>
+
+h1. Cryptographic history
+
+<center>
+!images/crypto.png!
+</center>
+
+h1. Simplified branching
+
+<center>
+!images/branching.png!
 </center>
 
