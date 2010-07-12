@@ -70,6 +70,14 @@ h1. Centralized Model
 !images/traditional_vc.png!
 </center>
 
+h1. Centralized SCM systems
+
+  * CVS
+  * Subversion
+  * ClearCase
+  * Perforce
+  * Visual Studio Team System
+
 h1. One master copy
 
 <center>
@@ -94,6 +102,15 @@ h1. Distributed Model
 !images/distributed_vc.png!
 </center>
 
+h1. Distributed SCM systems
+
+  * Git
+  * Mercurial
+  * Arch
+  * Bazaar
+  * Darcs
+  * Bitkeeper
+
 h1. Multiple "masters"
 
 <center>
@@ -102,7 +119,7 @@ h1. Multiple "masters"
 
 h1. Everyone works on their own copy of the repository
 
-<p></p>
+<p>&nbsp;</p>
 
 <center>
 !images/everymanforhimself.jpg!
@@ -150,7 +167,77 @@ h1. Cryptographic history
 
 h1. Simplified branching
 
+<p>&nbsp;</p>
+
 <center>
 !images/branching.png!
+</center>
+
+h1. Why you should consider DVCS
+
+<center>
+!images/consider.jpg!
+</center>
+
+h1. Redundancy
+
+<center>
+!images/redundant.jpg!
+</center>
+
+h1. No network needed
+
+<p>&nbsp;</p>
+
+<center>
+!images/failwhale.gif!
+</center>
+
+h1. Encourages commits
+
+<center>
+!images/hardwork.jpg!
+</center>
+
+h1. Privacy
+
+<center>
+!images/privacy.jpg!
+</center>
+
+h1. Still can have an "official" repo
+
+<center>
+!images/enforce.jpg!
+</center>
+
+h1. Great for large projects
+
+<center>
+!images/large.jpg!
+</center>
+
+h1. Why you should NOT consider DVCS
+
+<center>
+!images/rejected.jpg!
+</center>
+
+h1. Centralized systems are getting some of the same features
+
+<center>
+!images/steal.jpg!
+</center>
+
+h1. Easier to enforce an "official" repo
+
+<center>
+!images/official.jpg!
+</center>
+
+h1. Can't or won't allow personal copies of repos
+
+<center>
+!images/noprivate.jpg!
 </center>
 
