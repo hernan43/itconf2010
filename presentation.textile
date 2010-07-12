@@ -241,3 +241,82 @@ h1. Can't or won't allow personal copies of repos
 !images/noprivate.jpg!
 </center>
 
+!SLIDE
+
+<p>&nbsp;</p>
+
+<center>
+!images/nosql.png!
+</center>
+
+h1. What is NoSQL?
+
+<center>
+!images/what.png!
+</center>
+
+h1. Buzzword
+
+<center>
+!images/bee.jpg!
+</center>
+
+h1. Flexible table schema
+
+<center>
+!images/database.jpg!
+</center>
+
+h1. Key-value
+
+<center>
+!images/key.jpg!
+</center>
+
+h1. Key-value
+
+h2. Software
+
+ * MemcacheDB
+ * Tokyo Cabinet
+ * Redis
+ * MongoDB
+ * CouchDB
+ * Amazon SimpleDB
+
+h1. Document oriented
+
+<center>
+!images/documents.jpg!
+</center>
+
+h1. Column oriented
+
+<center>
+!images/column.jpg!
+</center>
+
+h1. Avoid the join
+
+<center>
+!images/join.jpg!
+</center>
+
+h1. Horizontal scalability
+
+<center>
+!images/horizontal.jpg!
+</center>
+
+h1. Weak/eventual consistency
+
+<center>
+!images/consistent.jpg!
+</center>
+
+h1. What is NoSQL?
+
+<center>
+!images/noprivate.jpg!
+</center>
+
