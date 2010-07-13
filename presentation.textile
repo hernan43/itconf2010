@@ -52,6 +52,12 @@ h2. continued
 <li>Message Queue Servers</li>
 </ul>
 
+h1. Not "out with the old"
+
+<center>
+!images/hulk.jpg!
+</center>
+
 h1. Do I actually use any of this stuff?
 
 <center>
@@ -199,7 +205,7 @@ h1. Encourages commits
 !images/hardwork.jpg!
 </center>
 
-h1. Privacy
+h1. Private work environment
 
 <center>
 !images/privacy.jpg!
@@ -280,8 +286,6 @@ h2. Software
  * MemcacheDB
  * Tokyo Cabinet
  * Redis
- * MongoDB
- * CouchDB
  * Amazon SimpleDB
 
 h1. Document oriented
@@ -290,16 +294,38 @@ h1. Document oriented
 !images/documents.jpg!
 </center>
 
+h1. Document oriented
+
+h2. Software
+
+ * MongoDB
+ * CouchDB
+ * RavenDB
+
 h1. Column oriented
 
 <center>
 !images/column.jpg!
 </center>
 
+h1. Column oriented
+
+h2. Software
+
+ * LucidDB
+ * MonetDB
+ * Google BigTable (sort of)
+
 h1. Avoid the join
 
 <center>
 !images/join.jpg!
+</center>
+
+h1. Polymorphism baby!
+
+<center>
+!images/morph.jpg!
 </center>
 
 h1. Horizontal scalability
@@ -314,9 +340,75 @@ h1. Weak/eventual consistency
 !images/consistent.jpg!
 </center>
 
-h1. What is NoSQL?
+h1. Why you should consider NoSQL?
 
 <center>
-!images/noprivate.jpg!
+!images/consider.jpg!
+</center>
+
+h1. Performance
+
+<center>
+!images/performance.jpg!
+</center>
+
+h1. Scalability
+
+<center>
+!images/scalable.jpg!
+</center>
+
+h1. (auto)Sharding
+
+<center>
+!images/sharding.jpg!
+</center>
+
+h1. Simplified replication
+
+<center>
+!images/replicant.jpg!
+</center>
+
+h1. Versatile
+
+<center>
+!images/versatile.jpg!
+</center>
+
+h1. Why you should NOT consider NoSQL
+
+<center>
+!images/rejected.jpg!
+</center>
+
+h1. Doesn't fit
+
+<center>
+!images/fit.jpg!
+</center>
+
+h1. Need complex joins/business logic
+
+<center>
+!images/joins.jpg!
+</center>
+
+h1. Need ODBC
+
+<center>
+!images/odbc.jpg!
+</center>
+
+h1. Weak/eventual consistency
+
+<center>
+!images/consistency.jpg!
+</center>
+
+h1. Web frameworks
+
+<center>
+!images/wordle.png!
 </center>
 
