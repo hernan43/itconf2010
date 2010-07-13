@@ -412,3 +412,131 @@ h1. Web frameworks
 !images/wordle.png!
 </center>
 
+h1. What is MVC
+
+<center>
+!images/mvc.png!
+</center>
+
+h1. Design philosophy
+
+h1. ORM
+
+<center>
+!images/orm.jpg!
+</center>
+
+h1. ORM
+
+h2. No SQL statements(mostly)
+
+Instead of your code looking like this
+
+<% code do %>$result = mysql_query("SELECT * FROM people");
+
+while($person = mysql_fetch_array($result)) {
+  echo $person['first_name'] . " " . $row['last_name'];
+}
+<% end %>
+
+It will look something like this
+
+<% code do %>people = Person.find(:all)
+
+people.each do |person|
+  puts person.first_name + " " + person.last_name
+end
+<% end %>
+
+h1. ORM
+
+h2. Inserts
+
+Instead of your code looking like this
+
+<% code do %>mysql_query("INSERT INTO people(first_name, last_name)
+  VALUES ('Schmoe', 'Joe')");
+<% end %>
+
+It will look something like this
+
+<% code do %>Person.create({:first_name => 'Joe', :last_name => 'Schmoe'})
+<% end %>
+
+
+h1. ORM
+
+h2. Abstraction over data
+
+h1. Templating
+
+h1. Model
+
+h1. Model
+
+h2. Data
+
+h1. Model
+
+h2. Business logic
+
+h1. View
+
+h1. View
+
+h2. Presentation
+
+h1. View
+
+h2. “The Web”
+
+h1. Controller
+
+h1. Controller
+
+h2. The tie that binds
+
+h1. Controller
+
+h2. Flow control
+
+h1. JavaScript
+
+h1. JavaScript
+
+h2. DOM
+
+h1. JavaScript
+
+h2. Accessibility/Unobtrusive scripting
+
+h1. JavaScript
+
+h2. Compatibility
+
+h1. JavaScript
+
+h2. Cross browser
+
+h1. JavaScript
+
+h2. New web features
+
+h1. Technologies
+
+h1. MVC
+
+ * Rails
+ * Sinatra
+ * Django
+ * CakePHP
+ * CodeIgniter
+ * Limonade
+
+h1. Javascript
+
+ * jQuery
+ * Prototype
+ * Mootools
+ * Modernizr
+

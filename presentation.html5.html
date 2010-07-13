@@ -1120,6 +1120,252 @@
               <center>
 <p><img src="images/wordle.png" alt="" /></p>
 </center>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>What is MVC</h1></header>
+          <section>
+              <center>
+<p><img src="images/mvc.png" alt="" /></p>
+</center>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Design philosophy</h1></header>
+          <section>
+              
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>ORM</h1></header>
+          <section>
+              <center>
+<p><img src="images/orm.jpg" alt="" /></p>
+</center>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>ORM</h1></header>
+          <section>
+              <h2>No SQL statements(mostly)</h2>
+<p>Instead of your code looking like this</p>
+<!-- begin code{} -->
+<div class='code'>
+<pre class="blackboard"><span class="line-numbers">   1 </span> <span class="Variable"><span class="Variable">$</span>result</span> <span class="Keyword">=</span> <span class="Entity">mysql_query</span>(<span class="String"><span class="String">&quot;</span>SELECT * FROM people<span class="String">&quot;</span></span>);
+<span class="line-numbers">   2 </span> 
+<span class="line-numbers">   3 </span> <span class="Keyword">while</span>(<span class="Variable"><span class="Variable">$</span>person</span> <span class="Keyword">=</span> <span class="Entity">mysql_fetch_array</span>(<span class="Variable"><span class="Variable">$</span>result</span>)) {
+<span class="line-numbers">   4 </span>   echo <span class="Variable"><span class="Variable">$</span>person</span>[<span class="String"><span class="String">'</span>first_name<span class="String">'</span></span>] . <span class="String"><span class="String">&quot;</span> <span class="String">&quot;</span></span> . <span class="Variable"><span class="Variable">$</span>row</span>[<span class="String"><span class="String">'</span>last_name<span class="String">'</span></span>];
+<span class="line-numbers">   5 </span> }
+</pre></div>
+<!-- end code -->
+
+<p>It will look something like this</p>
+<!-- begin code{} -->
+<div class='code'>
+<pre class="blackboard"><span class="line-numbers">   1 </span> people <span class="Keyword">=</span> <span class="Support">Person</span>.<span class="Entity">find</span>(<span class="Constant"><span class="Constant">:</span>all</span>)
+<span class="line-numbers">   2 </span> 
+<span class="line-numbers">   3 </span> people.<span class="Entity">each</span> <span class="Keyword">do </span>|<span class="Variable">person</span>|
+<span class="line-numbers">   4 </span>   puts person.<span class="Entity">first_name</span> <span class="Keyword">+</span> <span class="String"><span class="String">&quot;</span> <span class="String">&quot;</span></span> <span class="Keyword">+</span> person.<span class="Entity">last_name</span>
+<span class="line-numbers">   5 </span> <span class="Keyword">end</span>
+</pre></div>
+<!-- end code -->
+
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>ORM</h1></header>
+          <section>
+              <h2>Inserts</h2>
+<p>Instead of your code looking like this</p>
+<!-- begin code{} -->
+<div class='code'>
+<pre class="blackboard"><span class="line-numbers">   1 </span> <span class="Entity">mysql_query</span>(<span class="String"><span class="String">&quot;</span>INSERT INTO people(first_name, last_name)</span>
+<span class="line-numbers">   2 </span> <span class="String">  VALUES ('Schmoe', 'Joe')<span class="String">&quot;</span></span>);
+</pre></div>
+<!-- end code -->
+
+<p>It will look something like this</p>
+<!-- begin code{} -->
+<div class='code'>
+<pre class="blackboard"><span class="line-numbers">   1 </span> <span class="Support">Person</span>.<span class="Entity">create</span>({<span class="Constant"><span class="Constant">:</span>first_name</span> =&gt; <span class="String"><span class="String">'</span>Joe<span class="String">'</span></span>, <span class="Constant"><span class="Constant">:</span>last_name</span> =&gt; <span class="String"><span class="String">'</span>Schmoe<span class="String">'</span></span>})
+</pre></div>
+<!-- end code -->
+
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>ORM</h1></header>
+          <section>
+              <h2>Abstraction over data</h2>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Templating</h1></header>
+          <section>
+              
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Model</h1></header>
+          <section>
+              
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Model</h1></header>
+          <section>
+              <h2>Data</h2>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Model</h1></header>
+          <section>
+              <h2>Business logic</h2>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>View</h1></header>
+          <section>
+              
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>View</h1></header>
+          <section>
+              <h2>Presentation</h2>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>View</h1></header>
+          <section>
+              <h2>“The Web”</h2>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Controller</h1></header>
+          <section>
+              
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Controller</h1></header>
+          <section>
+              <h2>The tie that binds</h2>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Controller</h1></header>
+          <section>
+              <h2>Flow control</h2>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>JavaScript</h1></header>
+          <section>
+              
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>JavaScript</h1></header>
+          <section>
+              <h2>DOM</h2>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>JavaScript</h1></header>
+          <section>
+              <h2>Accessibility/Unobtrusive scripting</h2>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>JavaScript</h1></header>
+          <section>
+              <h2>Compatibility</h2>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>JavaScript</h1></header>
+          <section>
+              <h2>Cross browser</h2>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>JavaScript</h1></header>
+          <section>
+              <h2>New web features</h2>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Technologies</h1></header>
+          <section>
+              
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>MVC</h1></header>
+          <section>
+              <ul>
+	<li>Rails</li>
+	<li>Sinatra</li>
+	<li>Django</li>
+	<li>CakePHP</li>
+	<li>CodeIgniter</li>
+	<li>Limonade</li>
+</ul>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Javascript</h1></header>
+          <section>
+              <ul>
+	<li>jQuery</li>
+	<li>Prototype</li>
+	<li>Mootools</li>
+	<li>Modernizr</li>
+</ul>
           </section>
         </div>
         
