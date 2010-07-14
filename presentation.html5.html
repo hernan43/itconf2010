@@ -1137,14 +1137,46 @@
         <div class="slide">
           <header><h1>Design philosophy</h1></header>
           <section>
-              
+              <center>
+<p><img src="images/design.jpg" alt="" /></p>
+</center>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>DRY</h1></header>
+          <section>
+              <ul>
+	<li>Don&#8217;t</li>
+	<li>Repeat</li>
+	<li>Yourself</li>
+</ul>
+
           </section>
         </div>
         
         <div class="slide">
           <header><h1>ORM</h1></header>
           <section>
-              <center>
+              <ul>
+	<li>Object</li>
+</ul>
+<ul>
+	<li>Relational</li>
+</ul>
+<ul>
+	<li>Mapping</li>
+</ul>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>ORM</h1></header>
+          <section>
+              <h2>Abstraction over data</h2>
+<center>
 <p><img src="images/orm.jpg" alt="" /></p>
 </center>
 
@@ -1158,11 +1190,10 @@
 <p>Instead of your code looking like this</p>
 <!-- begin code{} -->
 <div class='code'>
-<pre class="blackboard"><span class="line-numbers">   1 </span> <span class="Variable"><span class="Variable">$</span>result</span> <span class="Keyword">=</span> <span class="Entity">mysql_query</span>(<span class="String"><span class="String">&quot;</span>SELECT * FROM people<span class="String">&quot;</span></span>);
-<span class="line-numbers">   2 </span> 
-<span class="line-numbers">   3 </span> <span class="Keyword">while</span>(<span class="Variable"><span class="Variable">$</span>person</span> <span class="Keyword">=</span> <span class="Entity">mysql_fetch_array</span>(<span class="Variable"><span class="Variable">$</span>result</span>)) {
-<span class="line-numbers">   4 </span>   echo <span class="Variable"><span class="Variable">$</span>person</span>[<span class="String"><span class="String">'</span>first_name<span class="String">'</span></span>] . <span class="String"><span class="String">&quot;</span> <span class="String">&quot;</span></span> . <span class="Variable"><span class="Variable">$</span>row</span>[<span class="String"><span class="String">'</span>last_name<span class="String">'</span></span>];
-<span class="line-numbers">   5 </span> }
+<pre class="blackboard"><span class="line-numbers">   1 </span> res <span class="Keyword">=</span> mysql.<span class="Entity">query</span>(<span class="String"><span class="String">&quot;</span>SELECT * FROM PEOPLE<span class="String">&quot;</span></span>)
+<span class="line-numbers">   2 </span> res.<span class="Entity">each</span> <span class="Keyword">do </span>|<span class="Variable">row</span>|
+<span class="line-numbers">   3 </span>   puts row[<span class="String"><span class="String">'</span>first_name<span class="String">'</span></span>] <span class="Keyword">+</span> <span class="String"><span class="String">&quot;</span> <span class="String">&quot;</span></span> <span class="Keyword">+</span> row[<span class="String"><span class="String">'</span>last_name<span class="String">'</span></span>]
+<span class="line-numbers">   4 </span> <span class="Keyword">end</span>
 </pre></div>
 <!-- end code -->
 
@@ -1188,7 +1219,7 @@
 <p>Instead of your code looking like this</p>
 <!-- begin code{} -->
 <div class='code'>
-<pre class="blackboard"><span class="line-numbers">   1 </span> <span class="Entity">mysql_query</span>(<span class="String"><span class="String">&quot;</span>INSERT INTO people(first_name, last_name)</span>
+<pre class="blackboard"><span class="line-numbers">   1 </span> mysql.<span class="Entity">query</span>(<span class="String"><span class="String">&quot;</span>INSERT INTO people(first_name, last_name)</span>
 <span class="line-numbers">   2 </span> <span class="String">  VALUES ('Schmoe', 'Joe')<span class="String">&quot;</span></span>);
 </pre></div>
 <!-- end code -->
@@ -1205,17 +1236,12 @@
         </div>
         
         <div class="slide">
-          <header><h1>ORM</h1></header>
-          <section>
-              <h2>Abstraction over data</h2>
-
-          </section>
-        </div>
-        
-        <div class="slide">
           <header><h1>Templating</h1></header>
           <section>
-              
+              <center>
+<p><img src="images/erb.png" alt="" /></p>
+</center>
+
           </section>
         </div>
         

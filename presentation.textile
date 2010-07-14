@@ -420,7 +420,27 @@ h1. What is MVC
 
 h1. Design philosophy
 
+<center>
+!images/design.jpg!
+</center>
+
+h1. DRY
+
+ * Don't
+ * Repeat
+ * Yourself
+
 h1. ORM
+
+ * Object
+
+ * Relational
+
+ * Mapping
+
+h1. ORM
+
+h2. Abstraction over data
 
 <center>
 !images/orm.jpg!
@@ -432,11 +452,10 @@ h2. No SQL statements(mostly)
 
 Instead of your code looking like this
 
-<% code do %>$result = mysql_query("SELECT * FROM people");
-
-while($person = mysql_fetch_array($result)) {
-  echo $person['first_name'] . " " . $row['last_name'];
-}
+<% code do %>res = mysql.query("SELECT * FROM PEOPLE")
+res.each do |row|
+  puts row['first_name'] + " " + row['last_name']
+end
 <% end %>
 
 It will look something like this
@@ -454,7 +473,7 @@ h2. Inserts
 
 Instead of your code looking like this
 
-<% code do %>mysql_query("INSERT INTO people(first_name, last_name)
+<% code do %>mysql.query("INSERT INTO people(first_name, last_name)
   VALUES ('Schmoe', 'Joe')");
 <% end %>
 
@@ -463,12 +482,11 @@ It will look something like this
 <% code do %>Person.create({:first_name => 'Joe', :last_name => 'Schmoe'})
 <% end %>
 
-
-h1. ORM
-
-h2. Abstraction over data
-
 h1. Templating
+
+<center>
+!images/erb.png!
+</center>
 
 h1. Model
 
