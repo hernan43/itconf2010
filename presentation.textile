@@ -575,9 +575,18 @@ h2. Flow control
 
 h1. JavaScript
 
+<% code do %><script language="javascript" type="text/javascript">
+  alert("I'm not so bad");
+</script>
+<% end %>
+
 h1. JavaScript
 
 h2. DOM
+
+<center>
+!images/html.svg!
+</center>
 
 h1. JavaScript
 
