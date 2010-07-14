@@ -490,19 +490,56 @@ h1. Templating
 
 h1. Model
 
+<center>
+!images/data.jpg!
+</center>
+
 h1. Model
 
 h2. Data
+
+<center>
+!images/matrix.jpg!
+</center>
 
 h1. Model
 
 h2. Business logic
 
+<% code do %>
+class Album < ActiveRecord::Base
+    has_many :tracks
+end
+
+class Track < ActiveRecord::Base
+    belongs_to :album
+end
+
+album = Album.create(:title => 'Black and Blue',
+    :performer => 'The Rolling Stones')
+album.tracks.create(:track_number => 1, :title => 'Hot Stuff')
+
+album = Album.create(:title => 'Sticky Fingers',
+    :performer => 'The Rolling Stones')
+album.tracks.create(:track_number => 1, :title => 'Brown Sugar')
+
+puts Album.find_by_title('Sticky Fingers').title  # Sticky Fingers
+puts Track.find_by_title('Hot Stuff').album_id    # 1
+<% end %>
+
 h1. View
+
+<center>
+!images/surfin.jpg!
+</center>
 
 h1. View
 
 h2. Presentation
+
+<center>
+!images/optimus.jpg!
+</center>
 
 h1. View
 

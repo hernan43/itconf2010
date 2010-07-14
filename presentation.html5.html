@@ -1248,7 +1248,10 @@
         <div class="slide">
           <header><h1>Model</h1></header>
           <section>
-              
+              <center>
+<p><img src="images/data.jpg" alt="" /></p>
+</center>
+
           </section>
         </div>
         
@@ -1256,6 +1259,9 @@
           <header><h1>Model</h1></header>
           <section>
               <h2>Data</h2>
+<center>
+<p><img src="images/matrix.jpg" alt="" /></p>
+</center>
 
           </section>
         </div>
@@ -1264,6 +1270,30 @@
           <header><h1>Model</h1></header>
           <section>
               <h2>Business logic</h2>
+<!-- begin code{} -->
+<div class='code'>
+<pre class="blackboard"><span class="line-numbers">   1 </span> 
+<span class="line-numbers">   2 </span> <span class="Keyword">class</span> <span class="Entity">Album<span class="Superclass"> <span class="Superclass">&lt;</span> ActiveRecord::Base</span></span>
+<span class="line-numbers">   3 </span>     has_many <span class="Constant"><span class="Constant">:</span>tracks</span>
+<span class="line-numbers">   4 </span> <span class="Keyword">end</span>
+<span class="line-numbers">   5 </span> 
+<span class="line-numbers">   6 </span> <span class="Keyword">class</span> <span class="Entity">Track<span class="Superclass"> <span class="Superclass">&lt;</span> ActiveRecord::Base</span></span>
+<span class="line-numbers">   7 </span>     belongs_to <span class="Constant"><span class="Constant">:</span>album</span>
+<span class="line-numbers">   8 </span> <span class="Keyword">end</span>
+<span class="line-numbers">   9 </span> 
+<span class="line-numbers">  10 </span> album <span class="Keyword">=</span> <span class="Support">Album</span>.<span class="Entity">create</span>(<span class="Constant"><span class="Constant">:</span>title</span> =&gt; <span class="String"><span class="String">'</span>Black and Blue<span class="String">'</span></span>,
+<span class="line-numbers">  11 </span>     <span class="Constant"><span class="Constant">:</span>performer</span> =&gt; <span class="String"><span class="String">'</span>The Rolling Stones<span class="String">'</span></span>)
+<span class="line-numbers">  12 </span> album.<span class="Entity">tracks</span>.<span class="Entity">create</span>(<span class="Constant"><span class="Constant">:</span>track_number</span> =&gt; <span class="Constant">1</span>, <span class="Constant"><span class="Constant">:</span>title</span> =&gt; <span class="String"><span class="String">'</span>Hot Stuff<span class="String">'</span></span>)
+<span class="line-numbers">  13 </span> 
+<span class="line-numbers">  14 </span> album <span class="Keyword">=</span> <span class="Support">Album</span>.<span class="Entity">create</span>(<span class="Constant"><span class="Constant">:</span>title</span> =&gt; <span class="String"><span class="String">'</span>Sticky Fingers<span class="String">'</span></span>,
+<span class="line-numbers">  15 </span>     <span class="Constant"><span class="Constant">:</span>performer</span> =&gt; <span class="String"><span class="String">'</span>The Rolling Stones<span class="String">'</span></span>)
+<span class="line-numbers">  16 </span> album.<span class="Entity">tracks</span>.<span class="Entity">create</span>(<span class="Constant"><span class="Constant">:</span>track_number</span> =&gt; <span class="Constant">1</span>, <span class="Constant"><span class="Constant">:</span>title</span> =&gt; <span class="String"><span class="String">'</span>Brown Sugar<span class="String">'</span></span>)
+<span class="line-numbers">  17 </span> 
+<span class="line-numbers">  18 </span> puts <span class="Support">Album</span>.<span class="Entity">find_by_title</span>(<span class="String"><span class="String">'</span>Sticky Fingers<span class="String">'</span></span>).<span class="Entity">title</span>  <span class="Comment"><span class="Comment">#</span> Sticky Fingers</span>
+<span class="line-numbers">  19 </span> puts <span class="Support">Track</span>.<span class="Entity">find_by_title</span>(<span class="String"><span class="String">'</span>Hot Stuff<span class="String">'</span></span>).<span class="Entity">album_id</span>    <span class="Comment"><span class="Comment">#</span> 1</span>
+</pre></div>
+<!-- end code -->
+
 
           </section>
         </div>
@@ -1271,7 +1301,10 @@
         <div class="slide">
           <header><h1>View</h1></header>
           <section>
-              
+              <center>
+<p><img src="images/surfin.jpg" alt="" /></p>
+</center>
+
           </section>
         </div>
         
@@ -1279,6 +1312,9 @@
           <header><h1>View</h1></header>
           <section>
               <h2>Presentation</h2>
+<center>
+<p><img src="images/optimus.jpg" alt="" /></p>
+</center>
 
           </section>
         </div>
