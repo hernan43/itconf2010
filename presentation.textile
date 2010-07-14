@@ -412,12 +412,6 @@ h1. Web frameworks
 !images/wordle.png!
 </center>
 
-h1. What is MVC
-
-<center>
-!images/mvc.png!
-</center>
-
 h1. Design philosophy
 
 <center>
@@ -427,7 +421,9 @@ h1. Design philosophy
 h1. DRY
 
  * Don't
+
  * Repeat
+
  * Yourself
 
 h1. ORM
@@ -488,6 +484,12 @@ h1. Templating
 !images/erb.png!
 </center>
 
+h1. What is MVC?
+
+<center>
+!images/mvc.png!
+</center>
+
 h1. Model
 
 <center>
@@ -545,15 +547,31 @@ h1. View
 
 h2. “The Web”
 
+<center>
+!images/website.jpg!
+</center>
+
 h1. Controller
+
+<center>
+!images/vader.jpg!
+</center>
 
 h1. Controller
 
 h2. The tie that binds
 
+<center>
+!images/controller.jpg!
+</center>
+
 h1. Controller
 
 h2. Flow control
+
+<center>
+!images/flow.jpg!
+</center>
 
 h1. JavaScript
 
