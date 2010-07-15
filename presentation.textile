@@ -653,7 +653,7 @@ h1. JavaScript
 
 h2. Cross browser
 
-h3. The Debil!
+h3. John Resig == The Debil?
 
 <center>
 !images/resig.jpg!
@@ -807,16 +807,61 @@ h2. Conventions
 !images/difficulties.jpg!
 </center>
 
-
 h1. Why you should consider web frameworks
 
 <center>
 !images/consider.jpg!
 </center>
 
+h1. Do more with less
+
+<center>
+!images/more.jpg!
+</center>
+
+h1. Plugin architecture
+
+<center>
+!images/plugin.png!
+</center>
+
+h1. Standards Compliance
+
+h2. With less headaches
+
+<center>
+!images/acid.png!
+</center>
+
+h1. Great community
+
+<center>
+!images/party.jpg!
+</center>
+
 h1. Why you should NOT consider web frameworks
 
 <center>
 !images/rejected.jpg!
+</center>
+
+h1. They do too much for your tastes
+
+h1. Learning curve
+
+h1. Work flow
+
+h1. Concerns about lock-in
+
+h1. Event driven servers
+
+<center>
+!images/assembly.jpg!
+</center>
+
+h1. Message queues
+
+<center>
+!images/amqp.png!
 </center>
 
