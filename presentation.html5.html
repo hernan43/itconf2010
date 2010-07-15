@@ -1396,6 +1396,31 @@
           <header><h1>JavaScript</h1></header>
           <section>
               <h2>Accessibility/Unobtrusive scripting</h2>
+<p>The &#8220;obtrusive&#8221; way:</p>
+<!-- begin code{} -->
+<div class='code'>
+<pre class="blackboard"><span class="line-numbers">   1 </span> <span class="Keyword">&lt;</span>script language<span class="Keyword">=</span><span class="String"><span class="String">&quot;</span>javascript<span class="String">&quot;</span></span><span class="Keyword">&gt;</span>function <span class="Entity">doSomething</span>(){
+<span class="line-numbers">   2 </span> 	<span class="String"><span class="String">/</span></span><span class="String"></span><span class="String"><span class="String">/</span></span> <span class="Variable">Do</span> something here!
+<span class="line-numbers">   3 </span> 	<span class="Entity">alert</span>(<span class="String"><span class="String">'</span>You did something, woo hoo!<span class="String">'</span></span>);
+<span class="line-numbers">   4 </span> });
+<span class="line-numbers">   5 </span> <span class="Keyword">&lt;</span><span class="Keyword">/</span>script<span class="Keyword">&gt;</span>
+<span class="line-numbers">   6 </span> 
+<span class="line-numbers">   7 </span> <span class="Keyword">&lt;</span>a onclick<span class="Keyword">=</span><span class="String"><span class="String">&quot;</span>doSomething()<span class="String">&quot;</span></span> href<span class="Keyword">=</span><span class="String"><span class="String">&quot;</span>#<span class="String">&quot;</span></span><span class="Keyword">&gt;</span><span class="Variable">Click</span>!<span class="Keyword">&lt;</span><span class="Keyword">/</span>a<span class="Keyword">&gt;</span>
+</pre></div>
+<!-- end code -->
+
+<p>The unobtrusive way:</p>
+<!-- begin code{} -->
+<div class='code'>
+<pre class="blackboard"><span class="line-numbers">   1 </span> <span class="Keyword">&lt;</span>a href<span class="Keyword">=</span><span class="String"><span class="String">&quot;</span>backuplink.html<span class="String">&quot;</span></span> <span class="Keyword">class</span><span class="Keyword">=</span><span class="String"><span class="String">&quot;</span>doSomething<span class="String">&quot;</span></span><span class="Keyword">&gt;</span><span class="Variable">Click</span>!<span class="Keyword">&lt;</span><span class="Keyword">/</span>a<span class="Keyword">&gt;</span>
+<span class="line-numbers">   2 </span> <span class="Keyword">&lt;</span>script language<span class="Keyword">=</span><span class="String"><span class="String">&quot;</span>javascript<span class="String">&quot;</span></span><span class="Keyword">&gt;</span>$(<span class="String"><span class="String">'</span>a.doSomething<span class="String">'</span></span>).<span class="Entity">click</span>(<span class="Entity">function</span>(){
+<span class="line-numbers">   3 </span> 	<span class="String"><span class="String">/</span></span><span class="String"></span><span class="String"><span class="String">/</span></span> <span class="Variable">Do</span> something here!
+<span class="line-numbers">   4 </span> 	<span class="Entity">alert</span>(<span class="String"><span class="String">'</span>You did something, woo hoo!<span class="String">'</span></span>);
+<span class="line-numbers">   5 </span> });
+<span class="line-numbers">   6 </span> <span class="Keyword">&lt;</span><span class="Keyword">/</span>script<span class="Keyword">&gt;</span>
+</pre></div>
+<!-- end code -->
+
 
           </section>
         </div>
@@ -1404,6 +1429,30 @@
           <header><h1>JavaScript</h1></header>
           <section>
               <h2>Compatibility</h2>
+<p><img src="images/modernizer.png" alt="" /></p>
+<!-- begin code{} -->
+<div class='code'>
+<pre class="blackboard"><span class="line-numbers">   1 </span> .multiplebgs div p {
+<span class="line-numbers">   2 </span>   <span class="Keyword">/</span><span class="Keyword">*</span> properties <span class="Keyword">for</span> browsers that
+<span class="line-numbers">   3 </span>      support multiple backgrounds <span class="Keyword">*</span><span class="Keyword">/</span>
+<span class="line-numbers">   4 </span> }
+<span class="line-numbers">   5 </span> .no<span class="Keyword">-</span>multiplebgs div p {
+<span class="line-numbers">   6 </span>   <span class="Keyword">/</span><span class="Keyword">*</span> optional fallback properties
+<span class="line-numbers">   7 </span>      <span class="Keyword">for</span> browsers that don<span class="String"><span class="String">'</span>t */</span>
+<span class="line-numbers">   8 </span> <span class="String">}</span>
+</pre></div>
+<!-- end code -->
+
+<!-- begin code{} -->
+<div class='code'>
+<pre class="blackboard"><span class="line-numbers">   1 </span> <span class="Keyword">if</span> (<span class="Support">Modernizr</span>.<span class="Entity">video</span> <span class="Keyword">&amp;&amp;</span> <span class="Support">Modernizr</span>.<span class="Entity">video</span>.<span class="Entity">ogg</span>){
+<span class="line-numbers">   2 </span>   <span class="String"><span class="String">/</span></span><span class="String"></span><span class="String"><span class="String">/</span></span> preload ogg video assets
+<span class="line-numbers">   3 </span> } <span class="InvalidDeprecated">else if</span> (<span class="Support">Modernizr</span>.<span class="Entity">video</span> <span class="Keyword">&amp;&amp;</span> <span class="Support">Modernizr</span>.<span class="Entity">video</span>.<span class="Entity">h264</span>){
+<span class="line-numbers">   4 </span>   <span class="String"><span class="String">/</span></span><span class="String"></span><span class="String"><span class="String">/</span></span> preload h264 assets
+<span class="line-numbers">   5 </span> }
+</pre></div>
+<!-- end code -->
+
 
           </section>
         </div>
@@ -1412,6 +1461,9 @@
           <header><h1>JavaScript</h1></header>
           <section>
               <h2>Cross browser</h2>
+<center>
+<p><img src="images/browsers.jpg" alt="" /></p>
+</center>
 
           </section>
         </div>
@@ -1419,7 +1471,10 @@
         <div class="slide">
           <header><h1>JavaScript</h1></header>
           <section>
-              <h2>New web features</h2>
+              <h2>Rich interfaces</h2>
+<center>
+<p><img src="images/rich.png" alt="" /></p>
+</center>
 
           </section>
         </div>
@@ -1427,7 +1482,10 @@
         <div class="slide">
           <header><h1>Technologies</h1></header>
           <section>
-              
+              <center>
+<p><img src="images/calc.jpg" alt="" /></p>
+</center>
+
           </section>
         </div>
         
@@ -1452,9 +1510,32 @@
               <ul>
 	<li>jQuery</li>
 	<li>Prototype</li>
+	<li>ExtJS</li>
 	<li>Mootools</li>
 	<li>Modernizr</li>
 </ul>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>What do these buy you?</h1></header>
+          <section>
+              
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Heavy lifting</h1></header>
+          <section>
+              
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>A circle of trust</h1></header>
+          <section>
+              <h2>Not really, it&#8217;s just an expression</h2>
           </section>
         </div>
         

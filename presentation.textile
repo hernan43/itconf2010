@@ -592,19 +592,67 @@ h1. JavaScript
 
 h2. Accessibility/Unobtrusive scripting
 
+The "obtrusive" way:
+
+<% code do %><script language="javascript">function doSomething(){
+	// Do something here!
+	alert('You did something, woo hoo!');
+});
+</script>
+
+<a onclick="doSomething()" href="#">Click!</a><% end %>
+
+The unobtrusive way:
+
+<% code do %><a href="backuplink.html" class="doSomething">Click!</a>
+<script language="javascript">$('a.doSomething').click(function(){
+	// Do something here!
+	alert('You did something, woo hoo!');
+});
+</script><% end %>
+
 h1. JavaScript
 
 h2. Compatibility
+
+!images/modernizer.png!
+
+<% code do %>.multiplebgs div p {
+  /* properties for browsers that
+     support multiple backgrounds */
+}
+.no-multiplebgs div p {
+  /* optional fallback properties
+     for browsers that don't */
+}<% end %>
+
+<% code do %>if (Modernizr.video && Modernizr.video.ogg){
+  // preload ogg video assets
+} else if (Modernizr.video && Modernizr.video.h264){
+  // preload h264 assets
+}<% end %>
 
 h1. JavaScript
 
 h2. Cross browser
 
+<center>
+!images/browsers.jpg!
+</center>
+
 h1. JavaScript
 
-h2. New web features
+h2. Rich interfaces
+
+<center>
+!images/rich.png!
+</center>
 
 h1. Technologies
+
+<center>
+!images/calc.jpg!
+</center>
 
 h1. MVC
 
@@ -619,6 +667,15 @@ h1. Javascript
 
  * jQuery
  * Prototype
+ * ExtJS
  * Mootools
  * Modernizr
+
+h1. What do these buy you?
+
+h1. Heavy lifting
+
+h1. A circle of trust
+
+h2. Not really, it's just an expression
 
