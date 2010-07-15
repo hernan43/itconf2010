@@ -340,7 +340,7 @@ h1. Weak/eventual consistency
 !images/consistent.jpg!
 </center>
 
-h1. Why you should consider NoSQL?
+h1. Why you should consider NoSQL
 
 <center>
 !images/consider.jpg!
@@ -673,9 +673,45 @@ h1. Javascript
 
 h1. What do these buy you?
 
+<center>
+!images/money.jpg!
+</center>
+
 h1. Heavy lifting
+
+<center>
+!images/loader.png!
+</center>
 
 h1. A circle of trust
 
 h2. Not really, it's just an expression
+
+<center>
+!images/trust.jpg!
+</center>
+
+h1. Flexibility
+
+<center>
+!images/flex.jpg!
+</center>
+
+h1. Time
+
+<center>
+!images/time.jpg!
+</center>
+
+h1. Why you should consider web frameworks
+
+<center>
+!images/consider.jpg!
+</center>
+
+h1. Why you should NOT consider web frameworks
+
+<center>
+!images/rejected.jpg!
+</center>
 
