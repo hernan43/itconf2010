@@ -1399,13 +1399,14 @@
 <p>The &#8220;obtrusive&#8221; way:</p>
 <!-- begin code{} -->
 <div class='code'>
-<pre class="blackboard"><span class="line-numbers">   1 </span> <span class="Keyword">&lt;</span>script language<span class="Keyword">=</span><span class="String"><span class="String">&quot;</span>javascript<span class="String">&quot;</span></span><span class="Keyword">&gt;</span>function <span class="Entity">doSomething</span>(){
-<span class="line-numbers">   2 </span> 	<span class="String"><span class="String">/</span></span><span class="String"></span><span class="String"><span class="String">/</span></span> <span class="Variable">Do</span> something here!
-<span class="line-numbers">   3 </span> 	<span class="Entity">alert</span>(<span class="String"><span class="String">'</span>You did something, woo hoo!<span class="String">'</span></span>);
-<span class="line-numbers">   4 </span> });
-<span class="line-numbers">   5 </span> <span class="Keyword">&lt;</span><span class="Keyword">/</span>script<span class="Keyword">&gt;</span>
-<span class="line-numbers">   6 </span> 
-<span class="line-numbers">   7 </span> <span class="Keyword">&lt;</span>a onclick<span class="Keyword">=</span><span class="String"><span class="String">&quot;</span>doSomething()<span class="String">&quot;</span></span> href<span class="Keyword">=</span><span class="String"><span class="String">&quot;</span>#<span class="String">&quot;</span></span><span class="Keyword">&gt;</span><span class="Variable">Click</span>!<span class="Keyword">&lt;</span><span class="Keyword">/</span>a<span class="Keyword">&gt;</span>
+<pre class="blackboard"><span class="line-numbers">   1 </span> <span class="Keyword">&lt;</span>script language<span class="Keyword">=</span><span class="String"><span class="String">&quot;</span>javascript<span class="String">&quot;</span></span><span class="Keyword">&gt;</span>
+<span class="line-numbers">   2 </span> function <span class="Entity">doSomething</span>(){
+<span class="line-numbers">   3 </span> 	<span class="String"><span class="String">/</span></span><span class="String"></span><span class="String"><span class="String">/</span></span> <span class="Variable">Do</span> something here!
+<span class="line-numbers">   4 </span> 	<span class="Entity">alert</span>(<span class="String"><span class="String">'</span>You did something, woo hoo!<span class="String">'</span></span>);
+<span class="line-numbers">   5 </span> });
+<span class="line-numbers">   6 </span> <span class="Keyword">&lt;</span><span class="Keyword">/</span>script<span class="Keyword">&gt;</span>
+<span class="line-numbers">   7 </span> 
+<span class="line-numbers">   8 </span> <span class="Keyword">&lt;</span>a onclick<span class="Keyword">=</span><span class="String"><span class="String">&quot;</span>doSomething()<span class="String">&quot;</span></span> href<span class="Keyword">=</span><span class="String"><span class="String">&quot;</span>#<span class="String">&quot;</span></span><span class="Keyword">&gt;</span><span class="Variable">Click</span>!<span class="Keyword">&lt;</span><span class="Keyword">/</span>a<span class="Keyword">&gt;</span>
 </pre></div>
 <!-- end code -->
 
@@ -1421,6 +1422,17 @@
 </pre></div>
 <!-- end code -->
 
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>JavaScript</h1></header>
+          <section>
+              <h2>Degrade gracefully</h2>
+<center>
+<p><img src="images/degrade.gif" alt="" /></p>
+</center>
 
           </section>
         </div>
@@ -1463,6 +1475,18 @@
               <h2>Cross browser</h2>
 <center>
 <p><img src="images/browsers.jpg" alt="" /></p>
+</center>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>JavaScript</h1></header>
+          <section>
+              <h2>Cross browser</h2>
+<h3>The Debil!</h3>
+<center>
+<p><img src="images/resig.jpg" alt="" /></p>
 </center>
 
           </section>
@@ -1539,6 +1563,81 @@
         </div>
         
         <div class="slide">
+          <header><h1>Heavy lifting</h1></header>
+          <section>
+              <h2>Example</h2>
+<!-- begin code{} -->
+<div class='code'>
+<pre class="blackboard"><span class="line-numbers">   1 </span> ray<span class="Variable"><span class="Variable">@</span>itconf</span><span class="Constant"><span class="Constant">:</span>~</span>$ rails <span class="Keyword">new</span> my_sweet_web_app
+<span class="line-numbers">   2 </span>       create
+<span class="line-numbers">   3 </span>       create  <span class="Variable">README</span>
+<span class="line-numbers">   4 </span>       create  <span class="Variable">Rakefile</span>
+<span class="line-numbers">   5 </span>       create  config.<span class="Entity">ru</span>
+<span class="line-numbers">   6 </span>       create  .<span class="Entity">gitignore</span>
+<span class="line-numbers">   7 </span>       create  <span class="Variable">Gemfile</span>
+<span class="line-numbers">   8 </span>       create  app
+<span class="line-numbers">   9 </span>       create  app<span class="Keyword">/</span>controllers<span class="Keyword">/</span>application_controller.<span class="Entity">rb</span>
+<span class="line-numbers">  10 </span>       create  app<span class="Keyword">/</span>helpers<span class="Keyword">/</span>application_helper.<span class="Entity">rb</span>
+<span class="line-numbers">  11 </span>       create  app<span class="Keyword">/</span>views<span class="Keyword">/</span>layouts<span class="Keyword">/</span>application.<span class="Entity">html</span>.<span class="Entity">erb</span>
+<span class="line-numbers">  12 </span>       create  app<span class="Keyword">/</span>models
+<span class="line-numbers">  13 </span>       create  config
+<span class="line-numbers">  14 </span>       create  db
+<span class="line-numbers">  15 </span>       create  db<span class="Keyword">/</span>seeds.<span class="Entity">rb</span>
+<span class="line-numbers">  16 </span>       create  doc
+<span class="line-numbers">  17 </span>       create  doc<span class="Keyword">/</span><span class="Variable">README_FOR_APP</span>
+<span class="line-numbers">  18 </span>       create  lib
+<span class="line-numbers">  19 </span>       create  lib<span class="Keyword">/</span>tasks
+<span class="line-numbers">  20 </span>       create  lib<span class="Keyword">/</span>tasks<span class="Keyword">/</span>.<span class="Entity">gitkeep</span>
+<span class="line-numbers">  21 </span>       ...
+<span class="line-numbers">  22 </span>       create  vendor<span class="Keyword">/</span>plugins
+<span class="line-numbers">  23 </span>       create  vendor<span class="Keyword">/</span>plugins<span class="Keyword">/</span>.<span class="Entity">gitkeep</span>
+<span class="line-numbers">  24 </span> ray<span class="Variable"><span class="Variable">@</span>itconf</span><span class="Constant"><span class="Constant">:</span>~</span>$
+</pre></div>
+<!-- end code -->
+
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Heavy lifting</h1></header>
+          <section>
+              <h2>App structure</h2>
+<!-- begin code{} -->
+<div class='code'>
+<pre class="blackboard"><span class="line-numbers">   1 </span> .
+<span class="line-numbers">   2 </span> ├── app
+<span class="line-numbers">   3 </span> │   ├── controllers
+<span class="line-numbers">   4 </span> │   ├── helpers
+<span class="line-numbers">   5 </span> │   ├── models
+<span class="line-numbers">   6 </span> │   └── views
+<span class="line-numbers">   7 </span> ├── config
+<span class="line-numbers">   8 </span> ├── config.<span class="Entity">ru</span>
+<span class="line-numbers">   9 </span> ├── db
+<span class="line-numbers">  10 </span> │   └── seeds.<span class="Entity">rb</span>
+<span class="line-numbers">  11 </span> ├── <span class="Variable">Gemfile</span>
+<span class="line-numbers">  12 </span> ├── lib
+<span class="line-numbers">  13 </span> │   └── tasks
+<span class="line-numbers">  14 </span> ├── <span class="Variable">Rakefile</span>
+<span class="line-numbers">  15 </span> ├── <span class="Variable">README</span>
+<span class="line-numbers">  16 </span> ├── script
+<span class="line-numbers">  17 </span> │   └── rails
+<span class="line-numbers">  18 </span> ├── tmp
+<span class="line-numbers">  19 </span> │   ├── cache
+<span class="line-numbers">  20 </span> │   ├── pids
+<span class="line-numbers">  21 </span> │   ├── sessions
+<span class="line-numbers">  22 </span> │   └── sockets
+<span class="line-numbers">  23 </span> └── vendor
+<span class="line-numbers">  24 </span>     └── plugins
+<span class="line-numbers">  25 </span> 
+</pre></div>
+<!-- end code -->
+
+
+          </section>
+        </div>
+        
+        <div class="slide">
           <header><h1>A circle of trust</h1></header>
           <section>
               <h2>Not really, it&#8217;s just an expression</h2>
@@ -1564,6 +1663,39 @@
           <section>
               <center>
 <p><img src="images/time.jpg" alt="" /></p>
+</center>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Time</h1></header>
+          <section>
+              <h2>Code Reuse(DRY)</h2>
+<center>
+<p><img src="images/cp.jpg" alt="" /></p>
+</center>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Time</h1></header>
+          <section>
+              <h2>Code Reuse(Plugins)</h2>
+<center>
+<p><img src="images/plugins.jpg" alt="" /></p>
+</center>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Time</h1></header>
+          <section>
+              <h2>Conventions</h2>
+<center>
+<p><img src="images/difficulties.jpg" alt="" /></p>
 </center>
 
           </section>

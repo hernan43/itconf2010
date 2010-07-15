@@ -594,7 +594,8 @@ h2. Accessibility/Unobtrusive scripting
 
 The "obtrusive" way:
 
-<% code do %><script language="javascript">function doSomething(){
+<% code do %><script language="javascript">
+function doSomething(){
 	// Do something here!
 	alert('You did something, woo hoo!');
 });
@@ -610,6 +611,14 @@ The unobtrusive way:
 	alert('You did something, woo hoo!');
 });
 </script><% end %>
+
+h1. JavaScript
+
+h2. Degrade gracefully
+
+<center>
+!images/degrade.gif!
+</center>
 
 h1. JavaScript
 
@@ -638,6 +647,16 @@ h2. Cross browser
 
 <center>
 !images/browsers.jpg!
+</center>
+
+h1. JavaScript
+
+h2. Cross browser
+
+h3. The Debil!
+
+<center>
+!images/resig.jpg!
 </center>
 
 h1. JavaScript
@@ -683,6 +702,67 @@ h1. Heavy lifting
 !images/loader.png!
 </center>
 
+h1. Heavy lifting
+
+h2. Example
+
+<% code do %>ray@itconf:~$ rails new my_sweet_web_app
+      create
+      create  README
+      create  Rakefile
+      create  config.ru
+      create  .gitignore
+      create  Gemfile
+      create  app
+      create  app/controllers/application_controller.rb
+      create  app/helpers/application_helper.rb
+      create  app/views/layouts/application.html.erb
+      create  app/models
+      create  config
+      create  db
+      create  db/seeds.rb
+      create  doc
+      create  doc/README_FOR_APP
+      create  lib
+      create  lib/tasks
+      create  lib/tasks/.gitkeep
+      ...
+      create  vendor/plugins
+      create  vendor/plugins/.gitkeep
+ray@itconf:~$
+<% end %>
+
+h1. Heavy lifting
+
+h2. App structure
+
+<% code do %>.
+├── app
+│   ├── controllers
+│   ├── helpers
+│   ├── models
+│   └── views
+├── config
+├── config.ru
+├── db
+│   └── seeds.rb
+├── Gemfile
+├── lib
+│   └── tasks
+├── Rakefile
+├── README
+├── script
+│   └── rails
+├── tmp
+│   ├── cache
+│   ├── pids
+│   ├── sessions
+│   └── sockets
+└── vendor
+    └── plugins
+
+<% end %>
+
 h1. A circle of trust
 
 h2. Not really, it's just an expression
@@ -702,6 +782,31 @@ h1. Time
 <center>
 !images/time.jpg!
 </center>
+
+h1. Time
+
+h2. Code Reuse(DRY)
+
+<center>
+!images/cp.jpg!
+</center>
+
+h1. Time
+
+h2. Code Reuse(Plugins)
+
+<center>
+!images/plugins.jpg!
+</center>
+
+h1. Time
+
+h2. Conventions
+
+<center>
+!images/difficulties.jpg!
+</center>
+
 
 h1. Why you should consider web frameworks
 
