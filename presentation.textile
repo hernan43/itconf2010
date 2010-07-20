@@ -950,7 +950,15 @@ h1. High concurrency
 
 h1. Low resource consumption
 
+<center>
+!images/consume.jpg!
+</center>
+
 h1. Predictable resource consumption
+
+<center>
+!images/psychic.jpg!
+</center>
 
 h1. Event driven frameworks
 
@@ -972,10 +980,21 @@ h1. Benefits
 
 h1. Focus on scability
 
+<center>
+!images/scalable.jpg!
+</center>
+
 h1. Streaming
+
+<center>
+!images/data_stream.jpg!
+</center>
 
 h1. Real-time
 
+<center>
+!images/clock.png!
+</center>
 h1. Message queues
 
 <center>
