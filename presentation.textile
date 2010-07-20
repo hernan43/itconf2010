@@ -944,6 +944,10 @@ h1. Benefits
 
 h1. High concurrency
 
+<center>
+!images/concurrency.png!
+</center>
+
 h1. Low resource consumption
 
 h1. Predictable resource consumption
