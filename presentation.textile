@@ -845,19 +845,132 @@ h1. Why you should NOT consider web frameworks
 !images/rejected.jpg!
 </center>
 
-h1. They do too much for your tastes
+h1. They do(meddle) too much for your tastes
+
+<center>
+!images/meddle.jpg!
+</center>
 
 h1. Learning curve
 
+<center>
+!images/curves.jpg!
+</center>
+
 h1. Work flow
+
+<center>
+!images/work.jpg!
+</center>
 
 h1. Concerns about lock-in
 
-h1. Event driven servers
+<center>
+!images/lockin.jpg!
+</center>
+
+h1. Event driven architectures
 
 <center>
 !images/assembly.jpg!
 </center>
+
+h1. Event driven architectures
+
+<center>
+!images/police.jpg!
+</center>
+
+h1. c10k Problem
+
+<center>
+!images/crowd.jpg!
+</center>
+
+h1. Single thread
+
+<center>
+!images/thread.jpg!
+</center>
+
+h1. Non-blocking/asynchronous
+
+<center>
+!images/block.png!
+</center>
+
+h1. Lower/predictable resource consumption
+
+<center>
+!images/nginx_connections.png!
+</center>
+
+h1. Assembly line analogy
+
+<center>
+!images/assembly.jpg!
+</center>
+
+h1. Assembly line analogy
+
+h3. 12.5 man hours using traditional method
+
+h1. Assembly line analogy
+
+h3. 1 hour 33 minutes using assembly line
+
+h1. Assembly line analogy
+
+h3. Paint became the bottleneck
+
+h1. Event driven servers
+
+  * NGINX
+  * Thin
+  * Tornado
+  * Lighttpd
+
+h1. Event driven servers
+
+h2. Who uses them
+
+  * Youtube
+  * Wikipedia
+  * Wordpress
+  * Hulu
+  * Github
+
+h1. Benefits
+
+h1. High concurrency
+
+h1. Low resource consumption
+
+h1. Predictable resource consumption
+
+h1. Event driven frameworks
+
+  * Node.js
+  * EventMachine
+  * Twisted
+  * Prado
+
+h1. Event driven frameworks
+
+h2. Who uses them
+
+  * Heroku
+  * Adcloud
+  * Joyent
+  * Academia.edu
+
+h1. Benefits
+
+h1. Focus on scability
+
+h1. Streaming
+
+h1. Real-time
 
 h1. Message queues
 
