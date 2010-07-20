@@ -1927,7 +1927,10 @@
         <div class="slide">
           <header><h1>Benefits</h1></header>
           <section>
-              
+              <center>
+<p><img src="images/bennys.jpg" alt="" /></p>
+</center>
+
           </section>
         </div>
         
@@ -1956,6 +1959,17 @@
           <section>
               <center>
 <p><img src="images/psychic.jpg" alt="" /></p>
+</center>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Er&#8230; I mean, predictable resource consumption</h1></header>
+          <section>
+              <p>&nbsp;</p>
+<center>
+<p><img src="images/nginx_connections.png" alt="" /></p>
 </center>
 
           </section>
@@ -1991,7 +2005,10 @@
         <div class="slide">
           <header><h1>Benefits</h1></header>
           <section>
-              
+              <center>
+<p><img src="images/bennys.jpg" alt="" /></p>
+</center>
+
           </section>
         </div>
         
@@ -2020,6 +2037,52 @@
           <section>
               <center>
 <p><img src="images/clock.png" alt="" /></p>
+</center>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Examples</h1></header>
+          <section>
+              <h2>Node.js netstat &#8216;tailer&#8217;</h2>
+<!-- begin code{} -->
+<div class='code'>
+<pre class="blackboard"><span class="line-numbers">   1 </span> var sys <span class="Keyword">=</span> <span class="Keyword">require</span>(<span class="String"><span class="String">'</span>sys<span class="String">'</span></span>)
+<span class="line-numbers">   2 </span> var spawn <span class="Keyword">=</span> <span class="Keyword">require</span>(<span class="String"><span class="String">'</span>child_process<span class="String">'</span></span>).<span class="Entity">spawn</span>;
+<span class="line-numbers">   3 </span> 
+<span class="line-numbers">   4 </span> <span class="String"><span class="String">/</span></span><span class="String"></span><span class="String"><span class="String">/</span></span> spawn my netstat process
+<span class="line-numbers">   5 </span> var netstat <span class="Keyword">=</span> <span class="Entity">spawn</span>(<span class="String"><span class="String">&quot;</span>netstat<span class="String">&quot;</span></span>, [<span class="String"><span class="String">&quot;</span>-a<span class="String">&quot;</span></span>, <span class="String"><span class="String">&quot;</span>--inet<span class="String">&quot;</span></span>, <span class="String"><span class="String">&quot;</span>-c<span class="String">&quot;</span></span>]);
+<span class="line-numbers">   6 </span> 
+<span class="line-numbers">   7 </span> <span class="String"><span class="String">/</span></span><span class="String"></span><span class="String"><span class="String">/</span></span> print netstat results to command line
+<span class="line-numbers">   8 </span> netstat.<span class="Entity">stdout</span>.<span class="Entity">on</span>(<span class="String"><span class="String">&quot;</span>data<span class="String">&quot;</span></span>, function (data) {
+<span class="line-numbers">   9 </span>   sys.<span class="Entity">puts</span>(data);
+<span class="line-numbers">  10 </span> });
+<span class="line-numbers">  11 </span> 
+<span class="line-numbers">  12 </span> <span class="String"><span class="String">/</span></span><span class="String"></span><span class="String"><span class="String">/</span></span> <span class="Keyword">require</span> http lib
+<span class="line-numbers">  13 </span> var http <span class="Keyword">=</span> <span class="Keyword">require</span>(<span class="String"><span class="String">&quot;</span>http<span class="String">&quot;</span></span>);
+<span class="line-numbers">  14 </span> http.<span class="Entity">createServer</span>(<span class="Entity">function</span>(req,res){
+<span class="line-numbers">  15 </span>   <span class="String"><span class="String">/</span></span><span class="String"></span><span class="String"><span class="String">/</span></span> send header
+<span class="line-numbers">  16 </span>   res.<span class="Entity">writeHead</span>(<span class="Constant">200</span>,{<span class="String"><span class="String">&quot;</span>Content-Type<span class="String">&quot;</span></span>: <span class="String"><span class="String">&quot;</span>text/plain<span class="String">&quot;</span></span>});
+<span class="line-numbers">  17 </span>   <span class="String"><span class="String">/</span></span><span class="String"></span><span class="String"><span class="String">/</span></span> send output of netstat
+<span class="line-numbers">  18 </span>   netstat.<span class="Entity">stdout</span>.<span class="Entity">on</span>(<span class="String"><span class="String">&quot;</span>data<span class="String">&quot;</span></span>, function (data) {
+<span class="line-numbers">  19 </span>     res.<span class="Entity">write</span>(data);
+<span class="line-numbers">  20 </span>   });
+<span class="line-numbers">  21 </span> }).<span class="Entity">listen</span>(<span class="Constant">8000</span>);
+<span class="line-numbers">  22 </span> 
+</pre></div>
+<!-- end code -->
+
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Examples</h1></header>
+          <section>
+              <h2>Node.js netstat &#8216;tailer&#8217;</h2>
+<center>
+<p><img src="images/netstat.png" alt="" /></p>
 </center>
 
           </section>

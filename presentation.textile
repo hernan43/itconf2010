@@ -942,6 +942,10 @@ h2. Who uses them
 
 h1. Benefits
 
+<center>
+!images/bennys.jpg!
+</center>
+
 h1. High concurrency
 
 <center>
@@ -958,6 +962,14 @@ h1. Predictable resource consumption
 
 <center>
 !images/psychic.jpg!
+</center>
+
+h1. Er... I mean, predictable resource consumption
+
+<p>&nbsp;</p>
+
+<center>
+!images/nginx_connections.png!
 </center>
 
 h1. Event driven frameworks
@@ -978,6 +990,10 @@ h2. Who uses them
 
 h1. Benefits
 
+<center>
+!images/bennys.jpg!
+</center>
+
 h1. Focus on scability
 
 <center>
@@ -995,6 +1011,43 @@ h1. Real-time
 <center>
 !images/clock.png!
 </center>
+
+h1. Examples
+
+h2. Node.js netstat 'tailer'
+
+<% code do %>var sys = require('sys')
+var spawn = require('child_process').spawn;
+
+// spawn my netstat process
+var netstat = spawn("netstat", ["-a", "--inet", "-c"]);
+
+// print netstat results to command line
+netstat.stdout.on("data", function (data) {
+  sys.puts(data);
+});
+
+// require http lib
+var http = require("http");
+http.createServer(function(req,res){
+  // send header
+  res.writeHead(200,{"Content-Type": "text/plain"});
+  // send output of netstat
+  netstat.stdout.on("data", function (data) {
+    res.write(data);
+  });
+}).listen(8000);
+
+<% end %>
+
+h1. Examples
+
+h2. Node.js netstat 'tailer'
+
+<center>
+!images/netstat.png!
+</center>
+
 h1. Message queues
 
 <center>
