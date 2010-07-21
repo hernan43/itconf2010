@@ -676,7 +676,7 @@ h1. Technologies
 h1. MVC
 
  * Rails
- * Sinatra
+ * ASP.NET MVC
  * Django
  * CakePHP
  * CodeIgniter
@@ -1054,9 +1054,105 @@ h1. Hummingbird
 <object width="640" height="480"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=11613517&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=11613517&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="640" height="480"></embed></object><p><a href="http://vimeo.com/11613517">Hummingbird</a> from <a href="http://vimeo.com/user437656">Michael Nutt</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
 </center>
 
-h1. Message queues
+h1. AMQP
 
 <center>
 !images/amqp.png!
 </center>
+
+h1. AMQP
+
+ * Advanced
+ * Message
+ * Queuing
+ * Protocol
+
+h1. General purpose messaging bus
+
+<center>
+!images/amqp.png!
+</center>
+
+h1. Developed by JPMorgan Chase & Co.
+
+<center>
+!images/jpm.png!
+</center>
+
+h1. Open standard
+
+<center>
+!images/open.jpg!
+</center>
+
+h1. Messaging scenarios
+
+ * point to point
+ * one to many
+ * pub-sub
+ * high speed transient
+ * etc
+
+h1. Multiple implementations
+
+  * RabbitMQ
+  * OpenAMQ
+  * StormMQ
+  * Apache Qpid
+  * etc
+
+h1. Language support
+
+<center>
+!images/code.jpg!
+</center>
+
+h1. Designed for critical communications
+
+h1. Persistence
+
+h1. Scalability
+
+h1. Use cases
+
+h1. Use cases
+
+h2. RPC
+
+h1. Use cases
+
+h2. Pub-sub
+
+h1. Use cases
+
+h2. Work distribution
+
+h1. Sample publisher/consumer
+
+AMQP publisher
+
+<% code do %>require 'amqp'
+
+AMQP.start(:host => 'localhost') do
+  # create a fanout exchange on the broker
+  exchange = MQ.new.fanout('multicast')
+
+  # publish multiple messages to fanout
+  exchange.publish('hello world')
+end
+<% end %>
+
+AMQP consumer
+
+<% code do %>require 'amqp'
+
+AMQP.start(:host => 'localhost') do
+  amq = MQ.new
+
+  # bind 'listener' queue to 'multicast' exchange
+  amq.queue('listener').bind(amq.fanout('multicast')).subscribe do |msg|
+    puts msg # process your message here
+  end
+end
+<% end %>
 

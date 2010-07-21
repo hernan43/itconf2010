@@ -1518,7 +1518,7 @@
           <section>
               <ul>
 	<li>Rails</li>
-	<li>Sinatra</li>
+	<li>ASP.NET MVC</li>
 	<li>Django</li>
 	<li>CakePHP</li>
 	<li>CodeIgniter</li>
@@ -2099,11 +2099,182 @@
         </div>
         
         <div class="slide">
-          <header><h1>Message queues</h1></header>
+          <header><h1>AMQP</h1></header>
           <section>
               <center>
 <p><img src="images/amqp.png" alt="" /></p>
 </center>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>AMQP</h1></header>
+          <section>
+              <ul>
+	<li>Advanced</li>
+	<li>Message</li>
+	<li>Queuing</li>
+	<li>Protocol</li>
+</ul>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>General purpose messaging bus</h1></header>
+          <section>
+              <center>
+<p><img src="images/amqp.png" alt="" /></p>
+</center>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Developed by JPMorgan Chase &amp; Co.</h1></header>
+          <section>
+              <center>
+<p><img src="images/jpm.png" alt="" /></p>
+</center>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Open standard</h1></header>
+          <section>
+              <center>
+<p><img src="images/open.jpg" alt="" /></p>
+</center>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Messaging scenarios</h1></header>
+          <section>
+              <ul>
+	<li>point to point</li>
+	<li>one to many</li>
+	<li>pub-sub</li>
+	<li>high speed transient</li>
+	<li>etc</li>
+</ul>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Multiple implementations</h1></header>
+          <section>
+              <ul>
+	<li>RabbitMQ</li>
+	<li>OpenAMQ</li>
+	<li>StormMQ</li>
+	<li>Apache Qpid</li>
+	<li>etc</li>
+</ul>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Language support</h1></header>
+          <section>
+              <center>
+<p><img src="images/code.jpg" alt="" /></p>
+</center>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Designed for critical communications</h1></header>
+          <section>
+              
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Persistence</h1></header>
+          <section>
+              
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Scalability</h1></header>
+          <section>
+              
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Use cases</h1></header>
+          <section>
+              
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Use cases</h1></header>
+          <section>
+              <h2>RPC</h2>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Use cases</h1></header>
+          <section>
+              <h2>Pub-sub</h2>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Use cases</h1></header>
+          <section>
+              <h2>Work distribution</h2>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Sample publisher/consumer</h1></header>
+          <section>
+              <p>AMQP publisher</p>
+<!-- begin code{} -->
+<div class='code'>
+<pre class="blackboard"><span class="line-numbers">   1 </span> <span class="Keyword">require</span> <span class="String"><span class="String">'</span>amqp<span class="String">'</span></span>
+<span class="line-numbers">   2 </span> 
+<span class="line-numbers">   3 </span> <span class="Variable">AMQP</span>.<span class="Entity">start</span>(<span class="Constant"><span class="Constant">:</span>host</span> =&gt; <span class="String"><span class="String">'</span>localhost<span class="String">'</span></span>) <span class="Keyword">do</span>
+<span class="line-numbers">   4 </span> <span class="Comment">  <span class="Comment">#</span> create a fanout exchange on the broker</span>
+<span class="line-numbers">   5 </span>   exchange <span class="Keyword">=</span> <span class="Variable">MQ</span>.<span class="Entity">new</span>.<span class="Entity">fanout</span>(<span class="String"><span class="String">'</span>multicast<span class="String">'</span></span>)
+<span class="line-numbers">   6 </span> 
+<span class="line-numbers">   7 </span> <span class="Comment">  <span class="Comment">#</span> publish multiple messages to fanout</span>
+<span class="line-numbers">   8 </span>   exchange.<span class="Entity">publish</span>(<span class="String"><span class="String">'</span>hello world<span class="String">'</span></span>)
+<span class="line-numbers">   9 </span> <span class="Keyword">end</span>
+</pre></div>
+<!-- end code -->
+
+<p>AMQP consumer</p>
+<!-- begin code{} -->
+<div class='code'>
+<pre class="blackboard"><span class="line-numbers">   1 </span> <span class="Keyword">require</span> <span class="String"><span class="String">'</span>amqp<span class="String">'</span></span>
+<span class="line-numbers">   2 </span> 
+<span class="line-numbers">   3 </span> <span class="Variable">AMQP</span>.<span class="Entity">start</span>(<span class="Constant"><span class="Constant">:</span>host</span> =&gt; <span class="String"><span class="String">'</span>localhost<span class="String">'</span></span>) <span class="Keyword">do</span>
+<span class="line-numbers">   4 </span>   amq <span class="Keyword">=</span> <span class="Variable">MQ</span>.<span class="Entity">new</span>
+<span class="line-numbers">   5 </span> 
+<span class="line-numbers">   6 </span> <span class="Comment">  <span class="Comment">#</span> bind 'listener' queue to 'multicast' exchange</span>
+<span class="line-numbers">   7 </span>   amq.<span class="Entity">queue</span>(<span class="String"><span class="String">'</span>listener<span class="String">'</span></span>).<span class="Entity">bind</span>(amq.<span class="Entity">fanout</span>(<span class="String"><span class="String">'</span>multicast<span class="String">'</span></span>)).<span class="Entity">subscribe</span> <span class="Keyword">do </span>|<span class="Variable">msg</span>|
+<span class="line-numbers">   8 </span>     puts msg <span class="Comment"><span class="Comment">#</span> process your message here</span>
+<span class="line-numbers">   9 </span>   <span class="Keyword">end</span>
+<span class="line-numbers">  10 </span> <span class="Keyword">end</span>
+</pre></div>
+<!-- end code -->
+
           </section>
         </div>
         
