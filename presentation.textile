@@ -1127,6 +1127,10 @@ h1. Scalability
 
 h1. Use cases
 
+<center>
+!images/epic_fail.jpg!
+</center>
+
 h1. Use cases
 
 h2. RPC
@@ -1146,6 +1150,10 @@ h2. Pub-sub
 h1. Use cases
 
 h2. Work distribution
+
+<center>
+!images/workers.jpg!
+</center>
 
 h1. Sample publisher/consumer
 
