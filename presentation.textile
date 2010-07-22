@@ -1125,6 +1125,22 @@ h1. Scalability
 !images/scalable.jpg!
 </center>
 
+h1. What about XMPP?
+
+<center>
+!images/xmpp.jpg!
+</center>
+
+h1. Strong alternative
+
+h1. Presence
+
+h2. AMQP doesn't have
+
+h1. Roster management
+
+h2. A veritable nightmare
+
 h1. Use cases
 
 <center>
@@ -1133,7 +1149,7 @@ h1. Use cases
 
 h1. Use cases
 
-h2. RPC
+h2. Communications Hub
 
 <center>
 !images/email.png!
