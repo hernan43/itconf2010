@@ -1109,9 +1109,21 @@ h1. Language support
 
 h1. Designed for critical communications
 
+<center>
+!images/dollar.jpg!
+</center>
+
 h1. Persistence
 
+<center>
+!images/ant.jpg!
+</center>
+
 h1. Scalability
+
+<center>
+!images/scalable.jpg!
+</center>
 
 h1. Use cases
 
@@ -1119,9 +1131,17 @@ h1. Use cases
 
 h2. RPC
 
+<center>
+!images/email.png!
+</center>
+
 h1. Use cases
 
 h2. Pub-sub
+
+<center>
+!images/subscriber.jpg!
+</center>
 
 h1. Use cases
 
