@@ -1125,21 +1125,11 @@ h1. Scalability
 !images/scalable.jpg!
 </center>
 
-h1. What about XMPP?
+h1. XMPP - The alternative
 
 <center>
 !images/xmpp.jpg!
 </center>
-
-h1. Strong alternative
-
-h1. Presence
-
-h2. AMQP doesn't have
-
-h1. Roster management
-
-h2. A veritable nightmare
 
 h1. Use cases
 
@@ -1199,4 +1189,34 @@ AMQP.start(:host => 'localhost') do
   end
 end
 <% end %>
+
+h1. Just because it's new doesn't mean it's better
+
+<center>
+!images/better.jpg!
+</center>
+
+h1. I’m not delusional
+
+<center>
+!images/cuckoo.jpg!
+</center>
+
+h1. These aren't replacements (mostly)
+
+<center>
+!images/replace.jpg!
+</center>
+
+h1. There are downsides
+
+<center>
+!images/sadtrombone.jpg!
+</center>
+
+h1. Where can these fit in?
+
+<center>
+!images/russian-tetris.gif!
+</center>
 
