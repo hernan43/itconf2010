@@ -70,19 +70,19 @@ h1. Distributed Version Control
 !images/distributed.gif!
 </center>
 
-h1. Centralized Model
-
-<center>
-!images/traditional_vc.png!
-</center>
-
-h1. Centralized SCM systems
+h1. Centralized version control systems
 
   * CVS
   * Subversion
   * ClearCase
   * Perforce
   * Visual Studio Team System
+
+h1. Centralized Model
+
+<center>
+!images/traditional_vc.png!
+</center>
 
 h1. One master copy
 
@@ -102,13 +102,13 @@ h1. Network is required for most operations
 !images/internet.jpg!
 </center>
 
-h1. Distributed Model
+h1. Centralized Model
 
 <center>
-!images/distributed_vc.png!
+!images/traditional_vc.png!
 </center>
 
-h1. Distributed SCM systems
+h1. Distributed version control systems
 
   * Git
   * Mercurial
@@ -116,6 +116,18 @@ h1. Distributed SCM systems
   * Bazaar
   * Darcs
   * Bitkeeper
+
+h1. Tangent - Github
+
+<center>
+!images/github.png!
+</center>
+
+h1. Distributed Model
+
+<center>
+!images/distributed_vc.png!
+</center>
 
 h1. Multiple "masters"
 
@@ -165,11 +177,41 @@ h1. GUI utils
 !images/tortoise.jpg!
 </center>
 
+h1. Tangent - Tortoise
+
+<center>
+!images/tortoise.png!
+!images/gnu.jpg!
+</center>
+
 h1. Cryptographic history
 
 <center>
 !images/crypto.png!
 </center>
+
+h1. Cryptographic history
+
+6ff87c4664981e4397625791c8ea3bbb5f2279a3
+
+h1. Blob storage
+
+<center>
+!images/blob.jpg!
+</center>
+
+h1. Blob storage
+
+<% code do %>$ git ls-tree fb3a8bdd0ce
+100644 blob 63c918c667fa005ff12ad89437f2fdc80926e21c    .gitignore
+100644 blob 5529b198e8d14decbe4ad99db3f7fb632de0439d    .mailmap
+100644 blob 6ff87c4664981e4397625791c8ea3bbb5f2279a3    COPYING
+040000 tree 2fb783e477100ce076f6bf57e4a6f026013dc745    Documentation
+100755 blob 3c0032cec592a765692234f1cba47dfdcc3a9200    GIT-VERSION-GEN
+100644 blob 289b046a443c0647624607d471289b2c7dcd470b    INSTALL
+100644 blob 4eb463797adc693dc168b926b6932ff53f17d0b1    Makefile
+100644 blob 548142c327a6790ff8821d67c2ee1eff7a656b52    README
+<% end %>
 
 h1. Simplified branching
 
@@ -1052,6 +1094,12 @@ h1. Hummingbird
 
 <center>
 <object width="640" height="480"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=11613517&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=11613517&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="640" height="480"></embed></object><p><a href="http://vimeo.com/11613517">Hummingbird</a> from <a href="http://vimeo.com/user437656">Michael Nutt</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+</center>
+
+h1. Examples
+
+<center>
+<video src="videos/experimenting_with_node.ogv" controls></video>
 </center>
 
 h1. AMQP
