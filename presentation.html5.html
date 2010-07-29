@@ -965,6 +965,16 @@
         </div>
         
         <div class="slide">
+          <header><h1>Common types</h1></header>
+          <section>
+              <center>
+<p><img src="images/common.jpg" alt="" /></p>
+</center>
+
+          </section>
+        </div>
+        
+        <div class="slide">
           <header><h1>Key-value</h1></header>
           <section>
               <center>
@@ -1030,6 +1040,23 @@
 	<li>MonetDB</li>
 	<li>Google BigTable (sort of)</li>
 </ul>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Characteristics</h1></header>
+          <section>
+              
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Distributed</h1></header>
+          <section>
+              <center>
+<p><img src="images/distributed.gif" alt="" /></p>
+</center>
 
           </section>
         </div>
@@ -1145,16 +1172,6 @@
         </div>
         
         <div class="slide">
-          <header><h1>Doesn&#8217;t fit</h1></header>
-          <section>
-              <center>
-<p><img src="images/fit.jpg" alt="" /></p>
-</center>
-
-          </section>
-        </div>
-        
-        <div class="slide">
           <header><h1>Need complex joins/business logic</h1></header>
           <section>
               <center>
@@ -1179,6 +1196,16 @@
           <section>
               <center>
 <p><img src="images/consistency.jpg" alt="" /></p>
+</center>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>Doesn&#8217;t fit</h1></header>
+          <section>
+              <center>
+<p><img src="images/fit.jpg" alt="" /></p>
 </center>
 
           </section>
@@ -2752,8 +2779,10 @@
           },
           handleKeys: function(e) {
             switch (e.keyCode) {
+              case 33: // Kensington clicker back
               case 37: // left arrow
                 this.prev(); break;
+              case 34: // Kensington clicker forward
               case 39: // right arrow
               case 32: // space
                 this.next(); break;
@@ -2761,6 +2790,10 @@
                 this.showNotes(); break;
               case 51: // 3
                 this.switch3D(); break;
+              /*
+              default:
+                alert(e.keyCode);
+              */
             }
           },
           _touchStartX: 0,

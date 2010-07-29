@@ -315,6 +315,12 @@ h1. Flexible table schema
 !images/database.jpg!
 </center>
 
+h1. Common types
+
+<center>
+!images/common.jpg!
+</center>
+
 h1. Key-value
 
 <center>
@@ -357,6 +363,14 @@ h2. Software
  * LucidDB
  * MonetDB
  * Google BigTable (sort of)
+
+h1. Characteristics
+
+h1. Distributed
+
+<center>
+!images/distributed.gif!
+</center>
 
 h1. Avoid the join
 
@@ -424,12 +438,6 @@ h1. Why you should NOT consider NoSQL
 !images/rejected.jpg!
 </center>
 
-h1. Doesn't fit
-
-<center>
-!images/fit.jpg!
-</center>
-
 h1. Need complex joins/business logic
 
 <center>
@@ -446,6 +454,12 @@ h1. Weak/eventual consistency
 
 <center>
 !images/consistency.jpg!
+</center>
+
+h1. Doesn't fit
+
+<center>
+!images/fit.jpg!
 </center>
 
 h1. Web frameworks
