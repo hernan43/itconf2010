@@ -297,7 +297,7 @@ h1. Can't or won't allow personal copies of repos
 !images/nosql.png!
 </center>
 
-h1. What is NoSQL?
+h1. What is NOSQL?
 
 <center>
 !images/what.png!
@@ -372,7 +372,7 @@ h1. Distributed
 !images/distributed.gif!
 </center>
 
-h1. Avoid the join
+h1. Avoid the JOIN
 
 <center>
 !images/join.jpg!
