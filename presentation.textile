@@ -366,6 +366,16 @@ h2. Software
 
 h1. Characteristics
 
+<center>
+!images/dumbo.png!
+</center>
+
+h1. Write heavy
+
+<center>
+!images/pencil.jpg!
+</center>
+
 h1. Distributed
 
 <center>
@@ -379,6 +389,8 @@ h1. Avoid the JOIN
 </center>
 
 h1. Polymorphism baby!
+
+h2. Well maybe just morph-ism
 
 <center>
 !images/morph.jpg!
