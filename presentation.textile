@@ -1026,7 +1026,7 @@ h1. Event driven servers
   * Tornado
   * Lighttpd
 
-h1. Event driven servers
+h1. Event driven web servers
 
 h2. Who uses them
 
