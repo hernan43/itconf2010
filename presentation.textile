@@ -677,6 +677,10 @@ function doSomething(){
 
 <a onclick="doSomething()" href="#">Click!</a><% end %>
 
+h1. JavaScript
+
+h2. Accessibility/Unobtrusive scripting
+
 The unobtrusive way:
 
 <% code do %><a href="backuplink.html" class="doSomething">Click!</a>
