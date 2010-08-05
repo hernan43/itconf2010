@@ -64,6 +64,12 @@ h1. Do I actually use any of this stuff?
 !images/wrench.jpg!
 </center>
 
+h1. You better believe it!
+
+<center>
+!images/git-logo.png!
+</center>
+
 h1. Distributed Version Control
 
 <center>
@@ -913,10 +919,28 @@ h1. Why you should NOT consider web frameworks
 !images/rejected.jpg!
 </center>
 
-h1. They do(meddle) too much for your tastes
+h1. They meddle too much for your tastes
 
 <center>
 !images/meddle.jpg!
+</center>
+
+h1. Magic
+
+<center>
+!images/magic.jpg!
+</center>
+
+h1. Unicorns
+
+<center>
+!images/unicorn.jpg!
+</center>
+
+h1. Magic Ponies
+
+<center>
+!images/pony.png!
 </center>
 
 h1. Learning curve
@@ -940,19 +964,19 @@ h1. Concerns about lock-in
 h1. Event driven architectures
 
 <center>
-!images/assembly.jpg!
-</center>
-
-h1. Event driven architectures
-
-<center>
-!images/police.jpg!
+!images/event.jpg!
 </center>
 
 h1. c10k Problem
 
 <center>
 !images/crowd.jpg!
+</center>
+
+h1. Characteristics
+
+<center>
+!images/dumbo.png!
 </center>
 
 h1. Single thread
@@ -1115,6 +1139,12 @@ h2. Node.js netstat 'tailer'
 <center>
 !images/netstat.png!
 </center>
+
+h1. Hummingbird
+
+ * Node.js
+ * MongoDB
+ * WebSockets
 
 h1. Hummingbird
 
