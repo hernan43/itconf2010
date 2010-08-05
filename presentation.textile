@@ -1019,7 +1019,7 @@ h1. Assembly line analogy
 
 h3. Paint became the bottleneck
 
-h1. Event driven servers
+h1. Event driven web servers
 
   * NGINX
   * Thin
