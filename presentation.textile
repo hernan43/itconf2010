@@ -751,7 +751,7 @@ h1. Technologies
 !images/calc.jpg!
 </center>
 
-h1. MVC
+h1. Web *slash* MVC
 
  * Rails
  * ASP.NET MVC
