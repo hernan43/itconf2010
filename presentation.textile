@@ -1,5 +1,6 @@
 title: In with the new
 code-theme: blackboard
+css_class: blackboard
 
 h1. Who am I?
 
