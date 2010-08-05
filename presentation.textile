@@ -120,14 +120,32 @@ h1. Centralized Model
 !images/traditional_vc.png!
 </center>
 
+h1. Distributed Model
+
+<center>
+!images/distributed_vc.png!
+</center>
+
+h1. History
+
+<center>
+!images/history.jpg!
+</center>
+
+h1. History
+
+h3. The slogan of Subversion for a while was "CVS done right", or something like that, and if you start with that kind of slogan, there's nowhere you can go. There is no way to do CVS right.
+
+Linus Torvalds
+
 h1. Distributed version control systems
 
   * Git
   * Mercurial
-  * Arch
   * Bazaar
   * Darcs
   * Bitkeeper
+  * Arch - not in active development
 
 h1. Tangent - Github
 
@@ -202,6 +220,12 @@ h1. Tangent - Tortoise
 !images/gnu.jpg!
 </center>
 
+h1. Characteristics
+
+<center>
+!images/dumbo.png!
+</center>
+
 h1. Cryptographic history
 
 <center>
@@ -210,7 +234,7 @@ h1. Cryptographic history
 
 h1. Cryptographic history
 
-6ff87c4664981e4397625791c8ea3bbb5f2279a3
+h3. 6ff87c4664981e4397625791c8ea3bbb5f2279a3
 
 h1. Blob storage
 
@@ -231,7 +255,9 @@ h1. Blob storage
 100644 blob 548142c327a6790ff8821d67c2ee1eff7a656b52    README
 <% end %>
 
-h1. Simplified branching/merging
+h1. Non-linear development
+
+h2. Simplified branching/merging
 
 <p>&nbsp;</p>
 
@@ -312,6 +338,14 @@ h1. Can't or won't allow personal copies of repos
 <center>
 !images/noprivate.jpg!
 </center>
+
+h1. Links
+
+ * "Distributed revision control system(wikipwedia)":http://en.wikipedia.org/wiki/Distributed_revision_control_system
+ * "Pro Git book":http://progit.org/book/
+ * "Linus Torvalds on Git":http://www.youtube.com/watch?v=4XpnKHJAok8
+ * "Github":http://github.com/
+ * "Bitbucket":https://bitbucket.org/
 
 !SLIDE
 
