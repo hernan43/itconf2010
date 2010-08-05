@@ -90,6 +90,12 @@ h1. Centralized Model
 !images/traditional_vc.png!
 </center>
 
+h1. Characteristics
+
+<center>
+!images/dumbo.png!
+</center>
+
 h1. One master copy
 
 <center>
@@ -133,6 +139,12 @@ h1. Distributed Model
 
 <center>
 !images/distributed_vc.png!
+</center>
+
+h1. Characteristics
+
+<center>
+!images/dumbo.png!
 </center>
 
 h1. Multiple "masters"
@@ -219,12 +231,18 @@ h1. Blob storage
 100644 blob 548142c327a6790ff8821d67c2ee1eff7a656b52    README
 <% end %>
 
-h1. Simplified branching
+h1. Simplified branching/merging
 
 <p>&nbsp;</p>
 
 <center>
 !images/branching.png!
+</center>
+
+h1. Branch like it's 1999!
+
+<center>
+!images/gitk.png!
 </center>
 
 h1. Why you should consider DVCS
