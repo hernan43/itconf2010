@@ -978,6 +978,12 @@ h1. Browser Wars
 !images/browser-war.png!
 </center>
 
+h1. W3C DOM
+
+<center>
+!images/keys.jpg!
+</center>
+
 h1. JavaScript
 
 h2. Accessibility/Unobtrusive scripting
