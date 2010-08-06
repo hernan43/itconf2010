@@ -964,9 +964,19 @@ h1. JavaScript frameworks
 </script>
 <% end %>
 
-h1. JavaScript
+h1. W3C
 
-h2. DOM
+<center>
+!images/keys.jpg!
+</center>
+
+h1. ECMAScript/JavaScript
+
+<center>
+!images/js.jpg!
+</center>
+
+h1. DOM
 
 <center>
 !images/html.svg!
@@ -978,15 +988,15 @@ h1. Browser Wars
 !images/browser-war.png!
 </center>
 
-h1. W3C DOM
+h1. Unobtrusive Javascript
 
 <center>
-!images/keys.jpg!
+!images/vr.jpg!
 </center>
 
-h1. JavaScript
+h1. Unobtrusive JavaScript
 
-h2. Accessibility/Unobtrusive scripting
+h2. Accessibility
 
 The "obtrusive" way:
 
@@ -999,9 +1009,15 @@ function doSomething(){
 
 <a onclick="doSomething()" href="#">Click!</a><% end %>
 
-h1. JavaScript
+h1. Nur
 
-h2. Accessibility/Unobtrusive scripting
+<center>
+!images/dillweed.jpg!
+</center>
+
+h1. Unobtrusive JavaScript
+
+h2. Unobtrusive scripting
 
 The unobtrusive way:
 
@@ -1018,6 +1034,12 @@ h2. Degrade gracefully
 
 <center>
 !images/degrade.gif!
+</center>
+
+h1. Browser Wars
+
+<center>
+!images/browser-war.png!
 </center>
 
 h1. JavaScript
@@ -1041,12 +1063,30 @@ h2. Compatibility
   // preload h264 assets
 }<% end %>
 
-h1. JavaScript
+h1. Cross browser compatibility
+
+<center>
+!images/browsers.jpg!
+</center>
+
+h1. John Resig jQuery creator
 
 h2. Cross browser
 
 <center>
-!images/browsers.jpg!
+!images/resig.jpg!
+</center>
+
+h1. Say what?
+
+<center>
+!images/kill_ie6.jpg!
+</center>
+
+h1. Oh **SNAP**~!
+
+<center>
+!images/ohsnap.jpg!
 </center>
 
 h1. JavaScript
