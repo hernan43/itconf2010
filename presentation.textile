@@ -77,6 +77,23 @@ h1. Distributed Version Control
 !images/distributed.gif!
 </center>
 
+h1. Version Control
+
+h2. Overview
+
+<center>
+!images/source_code.jpg!
+</center>
+
+h1. Overview
+
+h2. RCS
+
+<center>
+!images/rcs.png!
+</center>
+
+
 h1. Centralized version control systems
 
   * CVS
@@ -97,7 +114,7 @@ h1. Characteristics
 !images/dumbo.png!
 </center>
 
-h1. One master copy
+h1. One master
 
 <center>
 !images/master.jpg!
@@ -316,7 +333,7 @@ h1. Great for large projects
 !images/large.jpg!
 </center>
 
-h1. Why you should NOT consider DVCS
+h1. Why you might not consider DVCS
 
 <center>
 !images/rejected.jpg!
@@ -497,7 +514,7 @@ h1. Simplified replication
 !images/replicant.jpg!
 </center>
 
-h1. Why you should NOT consider NoSQL
+h1. Why you might not consider NoSQL
 
 <center>
 !images/rejected.jpg!
@@ -702,7 +719,7 @@ h2. Flow control
 !images/flow.jpg!
 </center>
 
-h1. JavaScript
+h1. JavaScript frameworks
 
 <% code do %><script language="javascript" type="text/javascript">
   alert("I'm not so bad");
@@ -972,7 +989,7 @@ h1. Great community
 !images/party.jpg!
 </center>
 
-h1. Why you should NOT consider web frameworks
+h1. Why you might not consider web frameworks
 
 <center>
 !images/rejected.jpg!
