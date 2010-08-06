@@ -238,12 +238,6 @@ h1. Tangent - Tortoise
 !images/gnu.jpg!
 </center>
 
-h1. Characteristics
-
-<center>
-!images/dumbo.png!
-</center>
-
 h1. Cryptographic history
 
 <center>
@@ -389,6 +383,18 @@ h1. Flexible table schema
 
 <center>
 !images/database.jpg!
+</center>
+
+h1. History
+
+<center>
+!images/history.jpg!
+</center>
+
+h1. The beginning-ish
+
+<center>
+!images/memcached.gif!
 </center>
 
 h1. Common types
@@ -572,6 +578,32 @@ h1. DRY
 
  * Yourself
 
+h1. DIE
+
+ * Duplication
+
+ * Is
+
+ * Evil
+
+h1. MVC
+
+<center>
+!images/mvc.png!
+</center>
+
+h1. History
+
+<center>
+!images/history.jpg!
+</center>
+
+h1. The beginning
+
+<center>
+!images/xerox.jpg!
+</center>
+
 h1. ORM
 
  * Object
@@ -719,111 +751,7 @@ h2. Flow control
 !images/flow.jpg!
 </center>
 
-h1. JavaScript frameworks
-
-<% code do %><script language="javascript" type="text/javascript">
-  alert("I'm not so bad");
-</script>
-<% end %>
-
-h1. JavaScript
-
-h2. DOM
-
-<center>
-!images/html.svg!
-</center>
-
-h1. JavaScript
-
-h2. Accessibility/Unobtrusive scripting
-
-The "obtrusive" way:
-
-<% code do %><script language="javascript">
-function doSomething(){
-	// Do something here!
-	alert('You did something, woo hoo!');
-});
-</script>
-
-<a onclick="doSomething()" href="#">Click!</a><% end %>
-
-h1. JavaScript
-
-h2. Accessibility/Unobtrusive scripting
-
-The unobtrusive way:
-
-<% code do %><a href="backuplink.html" class="doSomething">Click!</a>
-<script language="javascript">$('a.doSomething').click(function(){
-	// Do something here!
-	alert('You did something, woo hoo!');
-});
-</script><% end %>
-
-h1. JavaScript
-
-h2. Degrade gracefully
-
-<center>
-!images/degrade.gif!
-</center>
-
-h1. JavaScript
-
-h2. Compatibility
-
-!images/modernizer.png!
-
-<% code do %>.multiplebgs div p {
-  /* properties for browsers that
-     support multiple backgrounds */
-}
-.no-multiplebgs div p {
-  /* optional fallback properties
-     for browsers that don't */
-}<% end %>
-
-<% code do %>if (Modernizr.video && Modernizr.video.ogg){
-  // preload ogg video assets
-} else if (Modernizr.video && Modernizr.video.h264){
-  // preload h264 assets
-}<% end %>
-
-h1. JavaScript
-
-h2. Cross browser
-
-<center>
-!images/browsers.jpg!
-</center>
-
-h1. JavaScript
-
-h2. Cross browser
-
-h3. John Resig == The Debil?
-
-<center>
-!images/resig.jpg!
-</center>
-
-h1. JavaScript
-
-h2. Rich interfaces
-
-<center>
-!images/rich.png!
-</center>
-
-h1. Technologies
-
-<center>
-!images/calc.jpg!
-</center>
-
-h1. Web *slash* MVC
+h1. Web *slash* MVC frameworks
 
  * Rails
  * ASP.NET MVC
@@ -831,14 +759,6 @@ h1. Web *slash* MVC
  * CakePHP
  * CodeIgniter
  * Limonade
-
-h1. Javascript
-
- * jQuery
- * Prototype
- * ExtJS
- * Mootools
- * Modernizr
 
 h1. What do these buy you?
 
@@ -1036,6 +956,118 @@ h1. Concerns about lock-in
 <center>
 !images/lockin.jpg!
 </center>
+
+h1. JavaScript frameworks
+
+<% code do %><script language="javascript" type="text/javascript">
+  alert("I'm not so bad");
+</script>
+<% end %>
+
+h1. JavaScript
+
+h2. DOM
+
+<center>
+!images/html.svg!
+</center>
+
+h1. Browser Wars
+
+<center>
+!images/browser-war.png!
+</center>
+
+h1. JavaScript
+
+h2. Accessibility/Unobtrusive scripting
+
+The "obtrusive" way:
+
+<% code do %><script language="javascript">
+function doSomething(){
+	// Do something here!
+	alert('You did something, woo hoo!');
+});
+</script>
+
+<a onclick="doSomething()" href="#">Click!</a><% end %>
+
+h1. JavaScript
+
+h2. Accessibility/Unobtrusive scripting
+
+The unobtrusive way:
+
+<% code do %><a href="backuplink.html" class="doSomething">Click!</a>
+<script language="javascript">$('a.doSomething').click(function(){
+	// Do something here!
+	alert('You did something, woo hoo!');
+});
+</script><% end %>
+
+h1. JavaScript
+
+h2. Degrade gracefully
+
+<center>
+!images/degrade.gif!
+</center>
+
+h1. JavaScript
+
+h2. Compatibility
+
+!images/modernizer.png!
+
+<% code do %>.multiplebgs div p {
+  /* properties for browsers that
+     support multiple backgrounds */
+}
+.no-multiplebgs div p {
+  /* optional fallback properties
+     for browsers that don't */
+}<% end %>
+
+<% code do %>if (Modernizr.video && Modernizr.video.ogg){
+  // preload ogg video assets
+} else if (Modernizr.video && Modernizr.video.h264){
+  // preload h264 assets
+}<% end %>
+
+h1. JavaScript
+
+h2. Cross browser
+
+<center>
+!images/browsers.jpg!
+</center>
+
+h1. JavaScript
+
+h2. Cross browser
+
+h3. John Resig == The Debil?
+
+<center>
+!images/resig.jpg!
+</center>
+
+h1. JavaScript
+
+h2. Rich interfaces
+
+<center>
+!images/rich.png!
+</center>
+
+h1. Javascript frameworks
+
+ * jQuery
+ * Prototype
+ * ExtJS
+ * Mootools
+ * Modernizr
 
 h1. Event driven architectures
 
