@@ -1264,7 +1264,7 @@ h1. Benefits
 !images/bennys.jpg!
 </center>
 
-h1. Focus on scability
+h1. High concurrency
 
 <center>
 !images/scalable.jpg!
@@ -1472,16 +1472,16 @@ AMQP.start(:host => 'localhost') do
 end
 <% end %>
 
-h1. Just because it's new doesn't mean it's better
-
-<center>
-!images/better.jpg!
-</center>
-
 h1. I’m not delusional
 
 <center>
 !images/cuckoo.jpg!
+</center>
+
+h1. Just because it's new doesn't mean it's better
+
+<center>
+!images/better.jpg!
 </center>
 
 h1. These aren't replacements (mostly)
