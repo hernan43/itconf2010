@@ -1181,6 +1181,16 @@
         </div>
         
         <div class="slide">
+          <header><h1>Flexible schema</h1></header>
+          <section>
+              <center>
+<p><img src="images/morph.jpg" alt="" /></p>
+</center>
+
+          </section>
+        </div>
+        
+        <div class="slide">
           <header><h1>Write heavy</h1></header>
           <section>
               <center>
@@ -1215,17 +1225,6 @@
           <section>
               <center>
 <p><img src="images/join.jpg" alt="" /></p>
-</center>
-
-          </section>
-        </div>
-        
-        <div class="slide">
-          <header><h1>Polymorphism baby!</h1></header>
-          <section>
-              <h2>Well maybe just morph-ism</h2>
-<center>
-<p><img src="images/morph.jpg" alt="" /></p>
 </center>
 
           </section>
@@ -1961,14 +1960,9 @@
         <div class="slide">
           <header><h1>JavaScript frameworks</h1></header>
           <section>
-              <!-- begin code{} -->
-<div class='code'>
-<pre class="blackboard"><span class="line-numbers">   1 </span> <span class="Keyword">&lt;</span>script language<span class="Keyword">=</span><span class="String"><span class="String">&quot;</span>javascript<span class="String">&quot;</span></span> type<span class="Keyword">=</span><span class="String"><span class="String">&quot;</span>text/javascript<span class="String">&quot;</span></span><span class="Keyword">&gt;</span>
-<span class="line-numbers">   2 </span>   <span class="Entity">alert</span>(<span class="String"><span class="String">&quot;</span>I'm not so bad<span class="String">&quot;</span></span>);
-<span class="line-numbers">   3 </span> <span class="Keyword">&lt;</span><span class="Keyword">/</span>script<span class="Keyword">&gt;</span>
-</pre></div>
-<!-- end code -->
-
+              <center>
+<p><img src="images/js.png" alt="" /></p>
+</center>
 
           </section>
         </div>
@@ -2046,10 +2040,10 @@
         </div>
         
         <div class="slide">
-          <header><h1>Nur</h1></header>
+          <header><h1>I should probably stop doing that</h1></header>
           <section>
               <center>
-<p><img src="images/dillweed.jpg" alt="" /></p>
+<p><img src="images/nuke.jpg" alt="" /></p>
 </center>
 
           </section>
@@ -2063,11 +2057,12 @@
 <!-- begin code{} -->
 <div class='code'>
 <pre class="blackboard"><span class="line-numbers">   1 </span> <span class="Keyword">&lt;</span>a href<span class="Keyword">=</span><span class="String"><span class="String">&quot;</span>backuplink.html<span class="String">&quot;</span></span> <span class="Keyword">class</span><span class="Keyword">=</span><span class="String"><span class="String">&quot;</span>doSomething<span class="String">&quot;</span></span><span class="Keyword">&gt;</span><span class="Variable">Click</span>!<span class="Keyword">&lt;</span><span class="Keyword">/</span>a<span class="Keyword">&gt;</span>
-<span class="line-numbers">   2 </span> <span class="Keyword">&lt;</span>script language<span class="Keyword">=</span><span class="String"><span class="String">&quot;</span>javascript<span class="String">&quot;</span></span><span class="Keyword">&gt;</span>$(<span class="String"><span class="String">'</span>a.doSomething<span class="String">'</span></span>).<span class="Entity">click</span>(<span class="Entity">function</span>(){
-<span class="line-numbers">   3 </span> 	<span class="String"><span class="String">/</span></span><span class="String"></span><span class="String"><span class="String">/</span></span> <span class="Variable">Do</span> something here!
-<span class="line-numbers">   4 </span> 	<span class="Entity">alert</span>(<span class="String"><span class="String">'</span>You did something, woo hoo!<span class="String">'</span></span>);
-<span class="line-numbers">   5 </span> });
-<span class="line-numbers">   6 </span> <span class="Keyword">&lt;</span><span class="Keyword">/</span>script<span class="Keyword">&gt;</span>
+<span class="line-numbers">   2 </span> 
+<span class="line-numbers">   3 </span> <span class="Keyword">&lt;</span>script language<span class="Keyword">=</span><span class="String"><span class="String">&quot;</span>javascript<span class="String">&quot;</span></span><span class="Keyword">&gt;</span>$(<span class="String"><span class="String">'</span>a.doSomething<span class="String">'</span></span>).<span class="Entity">click</span>(<span class="Entity">function</span>(){
+<span class="line-numbers">   4 </span> 	<span class="String"><span class="String">/</span></span><span class="String"></span><span class="String"><span class="String">/</span></span> <span class="Variable">Do</span> something here!
+<span class="line-numbers">   5 </span> 	<span class="Entity">alert</span>(<span class="String"><span class="String">'</span>You did something, woo hoo!<span class="String">'</span></span>);
+<span class="line-numbers">   6 </span> });
+<span class="line-numbers">   7 </span> <span class="Keyword">&lt;</span><span class="Keyword">/</span>script<span class="Keyword">&gt;</span>
 </pre></div>
 <!-- end code -->
 
@@ -2129,7 +2124,7 @@
         </div>
         
         <div class="slide">
-          <header><h1>Cross browser compatibility</h1></header>
+          <header><h1>Cross browser</h1></header>
           <section>
               <center>
 <p><img src="images/browsers.jpg" alt="" /></p>
@@ -2222,6 +2217,15 @@
               <center>
 <p><img src="images/crowd.jpg" alt="" /></p>
 </center>
+
+          </section>
+        </div>
+        
+        <div class="slide">
+          <header><h1>c10k Problem</h1></header>
+          <section>
+              <h5>Let&#8217;s see &#8211; at 20000 clients, that&#8217;s 50KHz, 100Kbytes, and 50Kbits/sec per client. It shouldn&#8217;t take any more horsepower than that to take four kilobytes from the disk and send them to the network once a second for each of twenty thousand clients.</h5>
+<p>~ Dan Kegel</p>
 
           </section>
         </div>

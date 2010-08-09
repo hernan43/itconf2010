@@ -452,6 +452,12 @@ h1. Characteristics
 !images/dumbo.png!
 </center>
 
+h1. Flexible schema
+
+<center>
+!images/morph.jpg!
+</center>
+
 h1. Write heavy
 
 <center>
@@ -474,14 +480,6 @@ h1. Non-SQL query interface
 
 <center>
 !images/join.jpg!
-</center>
-
-h1. Polymorphism baby!
-
-h2. Well maybe just morph-ism
-
-<center>
-!images/morph.jpg!
 </center>
 
 h1. Weak/eventual consistency
@@ -959,10 +957,9 @@ h1. Concerns about lock-in
 
 h1. JavaScript frameworks
 
-<% code do %><script language="javascript" type="text/javascript">
-  alert("I'm not so bad");
-</script>
-<% end %>
+<center>
+!images/js.png!
+</center>
 
 h1. W3C
 
@@ -1009,10 +1006,10 @@ function doSomething(){
 
 <a onclick="doSomething()" href="#">Click!</a><% end %>
 
-h1. Nur
+h1. I should probably stop doing that
 
 <center>
-!images/dillweed.jpg!
+!images/nuke.jpg!
 </center>
 
 h1. Unobtrusive JavaScript
@@ -1022,6 +1019,7 @@ h2. Unobtrusive scripting
 The unobtrusive way:
 
 <% code do %><a href="backuplink.html" class="doSomething">Click!</a>
+
 <script language="javascript">$('a.doSomething').click(function(){
 	// Do something here!
 	alert('You did something, woo hoo!');
@@ -1063,7 +1061,7 @@ h2. Compatibility
   // preload h264 assets
 }<% end %>
 
-h1. Cross browser compatibility
+h1. Cross browser
 
 <center>
 !images/browsers.jpg!
@@ -1126,6 +1124,12 @@ h1. c10k Problem
 <center>
 !images/crowd.jpg!
 </center>
+
+h1. c10k Problem
+
+h5. Let's see - at 20000 clients, that's 50KHz, 100Kbytes, and 50Kbits/sec per client. It shouldn't take any more horsepower than that to take four kilobytes from the disk and send them to the network once a second for each of twenty thousand clients.
+
+~ Dan Kegel
 
 h1. Characteristics
 
