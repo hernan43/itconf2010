@@ -1131,6 +1131,10 @@ h5. Let's see - at 20000 clients, that's 50KHz, 100Kbytes, and 50Kbits/sec per c
 
 ~ Dan Kegel
 
+h1. Threads occupy resources...
+
+h1. ...even if they are just waiting around
+
 h1. Characteristics
 
 <center>
