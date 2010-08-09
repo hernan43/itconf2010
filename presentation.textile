@@ -1087,14 +1087,16 @@ h1. Oh **SNAP**~!
 !images/ohsnap.jpg!
 </center>
 
-h1. JavaScript
-
-h2. Cross browser
-
-h3. John Resig == The Debil?
+h1. Is John Resig...
 
 <center>
 !images/resig.jpg!
+</center>
+
+h1. ...a cyborg!
+
+<center>
+!images/cyborg.jpg!
 </center>
 
 h1. JavaScript
@@ -1131,9 +1133,37 @@ h5. Let's see - at 20000 clients, that's 50KHz, 100Kbytes, and 50Kbits/sec per c
 
 ~ Dan Kegel
 
+"http://www.kegel.com/c10k.html":http://www.kegel.com/c10k.html
+
 h1. Threads occupy resources...
 
+<center>
+!images/occupied.jpg!
+</center>
+
 h1. ...even if they are just waiting around
+
+<center>
+!images/waiting.jpg!
+</center>
+
+h1. Assembly line analogy
+
+<center>
+!images/assembly.jpg!
+</center>
+
+h1. Assembly line analogy
+
+h3. 12.5 man hours using traditional method
+
+h1. Assembly line analogy
+
+h3. 1 hour 33 minutes using assembly line
+
+h1. Assembly line analogy
+
+h3. Paint became the bottleneck
 
 h1. Characteristics
 
@@ -1159,23 +1189,7 @@ h1. Lower/predictable resource consumption
 !images/nginx_connections.png!
 </center>
 
-h1. Assembly line analogy
-
-<center>
-!images/assembly.jpg!
-</center>
-
-h1. Assembly line analogy
-
-h3. 12.5 man hours using traditional method
-
-h1. Assembly line analogy
-
-h3. 1 hour 33 minutes using assembly line
-
-h1. Assembly line analogy
-
-h3. Paint became the bottleneck
+"http://blog.webfaction.com/a-little-holiday-present":http://blog.webfaction.com/a-little-holiday-present
 
 h1. Event driven web servers
 
@@ -1225,6 +1239,8 @@ h1. Er... I mean, predictable resource consumption
 <center>
 !images/nginx_connections.png!
 </center>
+
+"http://blog.webfaction.com/a-little-holiday-present":http://blog.webfaction.com/a-little-holiday-present
 
 h1. Event driven frameworks
 
