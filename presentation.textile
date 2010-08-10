@@ -1421,7 +1421,7 @@ end
 h1. Use cases
 
 <center>
-!images/epic_fail.jpg!
+!images/ducttape.png!
 </center>
 
 h1. Use cases
