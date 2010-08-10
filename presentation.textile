@@ -85,9 +85,9 @@ h2. Overview
 !images/source_code.jpg!
 </center>
 
-h1. Overview
+h1. In the beginning...
 
-h2. RCS
+h2. SCCS &amp; RCS
 
 <center>
 !images/rcs.png!
@@ -169,12 +169,6 @@ h1. Tangent - Github
 
 <center>
 !images/github.png!
-</center>
-
-h1. Distributed Model
-
-<center>
-!images/distributed_vc.png!
 </center>
 
 h1. Characteristics
@@ -267,6 +261,10 @@ h1. Blob storage
 100644 blob 548142c327a6790ff8821d67c2ee1eff7a656b52    README
 <% end %>
 
+Nice performance summary
+
+"http://www.contextualdevelopment.com/logbook/git/large-projects":http://www.contextualdevelopment.com/logbook/git/large-projects
+
 h1. Non-linear development
 
 h2. Simplified branching/merging
@@ -281,6 +279,12 @@ h1. Branch like it's 1999!
 
 <center>
 !images/gitk.png!
+</center>
+
+h1. Distributed Model
+
+<center>
+!images/distributed_vc.png!
 </center>
 
 h1. Why you should consider DVCS
@@ -568,14 +572,6 @@ h1. Design philosophy
 !images/design.jpg!
 </center>
 
-h1. DRY
-
- * Don't
-
- * Repeat
-
- * Yourself
-
 h1. DIE
 
  * Duplication
@@ -583,6 +579,14 @@ h1. DIE
  * Is
 
  * Evil
+
+h1. DRY
+
+ * Don't
+
+ * Repeat
+
+ * Yourself
 
 h1. MVC
 
