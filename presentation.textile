@@ -494,6 +494,22 @@ h2. Software
  * MonetDB
  * Google BigTable (sort of)
 
+h1. Column oriented
+
+h2. Data warehousing, analytics, and buisness intelligence
+
+<center>
+!images/analytics.png!
+</center>
+
+h1. Column oriented
+
+h2. Massive performance gains
+
+<center>
+!images/geek.gif!
+</center>
+
 h1. Characteristics
 
 <center>
