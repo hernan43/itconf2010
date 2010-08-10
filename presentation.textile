@@ -1067,36 +1067,12 @@ h1. Cross browser
 !images/browsers.jpg!
 </center>
 
-h1. John Resig jQuery creator
+h1. Tangent - John Resig jQuery creator
 
 h2. Cross browser
 
 <center>
 !images/resig.jpg!
-</center>
-
-h1. Say what?
-
-<center>
-!images/kill_ie6.jpg!
-</center>
-
-h1. Oh **SNAP**~!
-
-<center>
-!images/ohsnap.jpg!
-</center>
-
-h1. Is John Resig...
-
-<center>
-!images/resig.jpg!
-</center>
-
-h1. ...a cyborg!
-
-<center>
-!images/cyborg.jpg!
 </center>
 
 h1. JavaScript
@@ -1118,7 +1094,7 @@ h1. Javascript frameworks
 h1. Event driven architectures
 
 <center>
-!images/event.jpg!
+!images/io.jpg!
 </center>
 
 h1. c10k Problem
@@ -1336,6 +1312,12 @@ h1. Examples
 <video src="videos/experimenting_with_node.ogv" controls></video>
 </center>
 
+h1. Bonus!
+
+<center>
+!images/bonus.png!
+</center>
+
 h1. AMQP
 
 <center>
@@ -1407,42 +1389,6 @@ h1. Scalability
 !images/scalable.jpg!
 </center>
 
-h1. XMPP - The alternative
-
-<center>
-!images/xmpp.jpg!
-</center>
-
-h1. Use cases
-
-<center>
-!images/epic_fail.jpg!
-</center>
-
-h1. Use cases
-
-h2. Communications Hub
-
-<center>
-!images/email.png!
-</center>
-
-h1. Use cases
-
-h2. Pub-sub
-
-<center>
-!images/subscriber.jpg!
-</center>
-
-h1. Use cases
-
-h2. Work distribution
-
-<center>
-!images/workers.jpg!
-</center>
-
 h1. Sample publisher/consumer
 
 AMQP publisher
@@ -1471,6 +1417,42 @@ AMQP.start(:host => 'localhost') do
   end
 end
 <% end %>
+
+h1. Use cases
+
+<center>
+!images/epic_fail.jpg!
+</center>
+
+h1. Use cases
+
+h2. Pub-sub
+
+<center>
+!images/subscriber.jpg!
+</center>
+
+h1. Use cases
+
+h2. Communications Hub
+
+<center>
+!images/email.png!
+</center>
+
+h1. Use cases
+
+h2. Work distribution
+
+<center>
+!images/workers.jpg!
+</center>
+
+h1. XMPP - The alternative
+
+<center>
+!images/xmpp.jpg!
+</center>
 
 h1. I’m not delusional
 
