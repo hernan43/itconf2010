@@ -1319,6 +1319,24 @@ h1. Real-time
 !images/clock.png!
 </center>
 
+h1. Downsides
+
+<center>
+!images/icecream.jpg!
+</center>
+
+h1. Evented code will make you flip your wig
+
+<center>
+!images/psychic.jpg!
+</center>
+
+h1. All I/O must be asynchronous
+
+<center>
+!images/hamster.jpg!
+</center>
+
 h1. Examples
 
 h2. Node.js netstat 'tailer'
@@ -1450,6 +1468,10 @@ h1. Scalability
 !images/scalable.jpg!
 </center>
 
+h1. Speed
+
+h3. [0MQ] Is fast. 13.4 usec end-to-end latencies and over 8M messages a second today (InfiniBand).
+
 h1. Sample publisher/consumer
 
 AMQP publisher
@@ -1513,6 +1535,12 @@ h1. XMPP - The alternative
 
 <center>
 !images/xmpp.jpg!
+</center>
+
+h1. Soooooooooooo
+
+<center>
+!images/now-what.jpg!
 </center>
 
 h1. I’m not delusional
