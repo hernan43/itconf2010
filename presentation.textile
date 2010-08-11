@@ -958,6 +958,14 @@ h1. Concerns about lock-in
 !images/lockin.jpg!
 </center>
 
+h1. Links
+
+ * ".NET MVC":http://www.asp.net/mvc
+ * "Ruby on Rails":http://rubyonrails.org/
+ * "django":http://www.djangoproject.com/
+ * "CodeIgniter":http://codeigniter.com/
+ * "Limonade":http://www.limonade-php.net/
+
 h1. JavaScript frameworks
 
 <center>
@@ -1151,6 +1159,13 @@ h1. Established code base
 <center>
 !images/rewrite.png!
 </center>
+
+h1. Links
+
+ * "jQuery":http://jquery.com/
+ * "Prototype":http://www.prototypejs.org/
+ * "ExtJS":http://www.sencha.com/
+ * "MooTools":http://mootools.net/
 
 h1. Event driven architectures
 
@@ -1391,6 +1406,12 @@ h1. Examples
 <video src="videos/experimenting_with_node.ogv" controls></video>
 </center>
 
+h1. Links
+
+ * "Event Machine":http://rubyeventmachine.com/
+ * "Twisted":http://twistedmatrix.com/trac/
+ * "Node.JS":http://nodejs.org/
+
 h1. Bonus!
 
 <center>
@@ -1536,6 +1557,12 @@ h1. XMPP - The alternative
 <center>
 !images/xmpp.jpg!
 </center>
+
+h1. Links
+
+ * "ZeroMQ":http://www.zeromq.org/
+ * "AMQP(wiki)":http://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol
+ * "RabbitMQ":http://www.rabbitmq.com/
 
 h1. Soooooooooooo
 
