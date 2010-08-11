@@ -1100,6 +1100,58 @@ h1. Javascript frameworks
  * Mootools
  * Modernizr
 
+h1. Why you should consider JS frameworks
+
+<center>
+!images/consider.jpg!
+</center>
+
+h1. Do more with less
+
+<center>
+!images/more.jpg!
+</center>
+
+h1. Plugin architecture
+
+<center>
+!images/plugin.png!
+</center>
+
+h1. Standards Compliance
+
+h2. With less headaches
+
+<center>
+!images/acid.png!
+</center>
+
+h1. Great community
+
+<center>
+!images/party.jpg!
+</center>
+
+h1. Why you might not consider JS frameworks
+
+<center>
+!images/rejected.jpg!
+</center>
+
+h1. Because you are crazy
+
+h2. Just kidding!
+
+<center>
+!images/crazy.png!
+</center>
+
+h1. Established code base
+
+<center>
+!images/rewrite.png!
+</center>
+
 h1. Event driven architectures
 
 <center>
