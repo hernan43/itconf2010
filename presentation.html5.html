@@ -1241,7 +1241,7 @@
         <div class="slide">
           <header><h1>Column oriented</h1></header>
           <section>
-              <h2>Data warehousing, analytics, and buisness intelligence</h2>
+              <h2>Data warehousing, analytics, and business intelligence</h2>
 <center>
 <p><img src="images/analytics.png" alt="" /></p>
 </center>
@@ -1507,16 +1507,6 @@
         </div>
         
         <div class="slide">
-          <header><h1>History</h1></header>
-          <section>
-              <center>
-<p><img src="images/history.jpg" alt="" /></p>
-</center>
-
-          </section>
-        </div>
-        
-        <div class="slide">
           <header><h1>The beginning</h1></header>
           <section>
               <center>
@@ -1545,7 +1535,7 @@
         <div class="slide">
           <header><h1>ORM</h1></header>
           <section>
-              <h2>Abstraction over data</h2>
+              <h2>Abstraction layer over data</h2>
 <center>
 <p><img src="images/orm.jpg" alt="" /></p>
 </center>
@@ -1601,6 +1591,18 @@
 </pre></div>
 <!-- end code -->
 
+<p>Or this</p>
+<!-- begin code{} -->
+<div class='code'>
+<pre class="blackboard"><span class="line-numbers">   1 </span> p <span class="Keyword">=</span> <span class="Support">Person</span>.<span class="Entity">create</span>()
+<span class="line-numbers">   2 </span> 
+<span class="line-numbers">   3 </span> p.<span class="Entity">first_name</span> <span class="Keyword">=</span> <span class="String"><span class="String">'</span>Joe<span class="String">'</span></span>
+<span class="line-numbers">   4 </span> p.<span class="Entity">last_name</span> <span class="Keyword">=</span> <span class="String"><span class="String">'</span>Schmoe<span class="String">'</span></span>
+<span class="line-numbers">   5 </span> 
+<span class="line-numbers">   6 </span> p.<span class="Entity">save</span>
+</pre></div>
+<!-- end code -->
+
 
           </section>
         </div>
@@ -1628,19 +1630,9 @@
         <div class="slide">
           <header><h1>Model</h1></header>
           <section>
-              <center>
-<p><img src="images/data.jpg" alt="" /></p>
-</center>
-
-          </section>
-        </div>
-        
-        <div class="slide">
-          <header><h1>Model</h1></header>
-          <section>
               <h2>Data</h2>
 <center>
-<p><img src="images/matrix.jpg" alt="" /></p>
+<p><img src="images/data.jpg" alt="" /></p>
 </center>
 
           </section>
@@ -1723,9 +1715,9 @@
         <div class="slide">
           <header><h1>Controller</h1></header>
           <section>
-              <h2>The tie that binds</h2>
+              <h2>Flow control</h2>
 <center>
-<p><img src="images/controller.jpg" alt="" /></p>
+<p><img src="images/flow.jpg" alt="" /></p>
 </center>
 
           </section>
@@ -1734,9 +1726,9 @@
         <div class="slide">
           <header><h1>Controller</h1></header>
           <section>
-              <h2>Flow control</h2>
+              <h2>The tie that binds</h2>
 <center>
-<p><img src="images/flow.jpg" alt="" /></p>
+<p><img src="images/controller.jpg" alt="" /></p>
 </center>
 
           </section>
@@ -1773,81 +1765,6 @@
               <center>
 <p><img src="images/loader.png" alt="" /></p>
 </center>
-
-          </section>
-        </div>
-        
-        <div class="slide">
-          <header><h1>Heavy lifting</h1></header>
-          <section>
-              <h2>Example</h2>
-<!-- begin code{} -->
-<div class='code'>
-<pre class="blackboard"><span class="line-numbers">   1 </span> ray<span class="Variable"><span class="Variable">@</span>itconf</span><span class="Constant"><span class="Constant">:</span>~</span>$ rails <span class="Keyword">new</span> my_sweet_web_app
-<span class="line-numbers">   2 </span>       create
-<span class="line-numbers">   3 </span>       create  <span class="Variable">README</span>
-<span class="line-numbers">   4 </span>       create  <span class="Variable">Rakefile</span>
-<span class="line-numbers">   5 </span>       create  config.<span class="Entity">ru</span>
-<span class="line-numbers">   6 </span>       create  .<span class="Entity">gitignore</span>
-<span class="line-numbers">   7 </span>       create  <span class="Variable">Gemfile</span>
-<span class="line-numbers">   8 </span>       create  app
-<span class="line-numbers">   9 </span>       create  app<span class="Keyword">/</span>controllers<span class="Keyword">/</span>application_controller.<span class="Entity">rb</span>
-<span class="line-numbers">  10 </span>       create  app<span class="Keyword">/</span>helpers<span class="Keyword">/</span>application_helper.<span class="Entity">rb</span>
-<span class="line-numbers">  11 </span>       create  app<span class="Keyword">/</span>views<span class="Keyword">/</span>layouts<span class="Keyword">/</span>application.<span class="Entity">html</span>.<span class="Entity">erb</span>
-<span class="line-numbers">  12 </span>       create  app<span class="Keyword">/</span>models
-<span class="line-numbers">  13 </span>       create  config
-<span class="line-numbers">  14 </span>       create  db
-<span class="line-numbers">  15 </span>       create  db<span class="Keyword">/</span>seeds.<span class="Entity">rb</span>
-<span class="line-numbers">  16 </span>       create  doc
-<span class="line-numbers">  17 </span>       create  doc<span class="Keyword">/</span><span class="Variable">README_FOR_APP</span>
-<span class="line-numbers">  18 </span>       create  lib
-<span class="line-numbers">  19 </span>       create  lib<span class="Keyword">/</span>tasks
-<span class="line-numbers">  20 </span>       create  lib<span class="Keyword">/</span>tasks<span class="Keyword">/</span>.<span class="Entity">gitkeep</span>
-<span class="line-numbers">  21 </span>       ...
-<span class="line-numbers">  22 </span>       create  vendor<span class="Keyword">/</span>plugins
-<span class="line-numbers">  23 </span>       create  vendor<span class="Keyword">/</span>plugins<span class="Keyword">/</span>.<span class="Entity">gitkeep</span>
-<span class="line-numbers">  24 </span> ray<span class="Variable"><span class="Variable">@</span>itconf</span><span class="Constant"><span class="Constant">:</span>~</span>$
-</pre></div>
-<!-- end code -->
-
-
-          </section>
-        </div>
-        
-        <div class="slide">
-          <header><h1>Heavy lifting</h1></header>
-          <section>
-              <h2>App structure</h2>
-<!-- begin code{} -->
-<div class='code'>
-<pre class="blackboard"><span class="line-numbers">   1 </span> .
-<span class="line-numbers">   2 </span> ├── app
-<span class="line-numbers">   3 </span> │   ├── controllers
-<span class="line-numbers">   4 </span> │   ├── helpers
-<span class="line-numbers">   5 </span> │   ├── models
-<span class="line-numbers">   6 </span> │   └── views
-<span class="line-numbers">   7 </span> ├── config
-<span class="line-numbers">   8 </span> ├── config.<span class="Entity">ru</span>
-<span class="line-numbers">   9 </span> ├── db
-<span class="line-numbers">  10 </span> │   └── seeds.<span class="Entity">rb</span>
-<span class="line-numbers">  11 </span> ├── <span class="Variable">Gemfile</span>
-<span class="line-numbers">  12 </span> ├── lib
-<span class="line-numbers">  13 </span> │   └── tasks
-<span class="line-numbers">  14 </span> ├── <span class="Variable">Rakefile</span>
-<span class="line-numbers">  15 </span> ├── <span class="Variable">README</span>
-<span class="line-numbers">  16 </span> ├── script
-<span class="line-numbers">  17 </span> │   └── rails
-<span class="line-numbers">  18 </span> ├── tmp
-<span class="line-numbers">  19 </span> │   ├── cache
-<span class="line-numbers">  20 </span> │   ├── pids
-<span class="line-numbers">  21 </span> │   ├── sessions
-<span class="line-numbers">  22 </span> │   └── sockets
-<span class="line-numbers">  23 </span> └── vendor
-<span class="line-numbers">  24 </span>     └── plugins
-<span class="line-numbers">  25 </span> 
-</pre></div>
-<!-- end code -->
-
 
           </section>
         </div>
@@ -2058,6 +1975,16 @@
         </div>
         
         <div class="slide">
+          <header><h1>Browser Wars</h1></header>
+          <section>
+              <center>
+<p><img src="images/browser-war.png" alt="" /></p>
+</center>
+
+          </section>
+        </div>
+        
+        <div class="slide">
           <header><h1>W3C</h1></header>
           <section>
               <center>
@@ -2078,7 +2005,7 @@
         </div>
         
         <div class="slide">
-          <header><h1>DOM</h1></header>
+          <header><h1>DOM Scripting/DHTML</h1></header>
           <section>
               <center>
 <p><img src="images/html.svg" alt="" /></p>

@@ -496,7 +496,7 @@ h2. Software
 
 h1. Column oriented
 
-h2. Data warehousing, analytics, and buisness intelligence
+h2. Data warehousing, analytics, and business intelligence
 
 <center>
 !images/analytics.png!
@@ -654,12 +654,6 @@ h1. MVC
 !images/mvc.png!
 </center>
 
-h1. History
-
-<center>
-!images/history.jpg!
-</center>
-
 h1. The beginning
 
 <center>
@@ -676,7 +670,7 @@ h1. ORM
 
 h1. ORM
 
-h2. Abstraction over data
+h2. Abstraction layer over data
 
 <center>
 !images/orm.jpg!
@@ -718,6 +712,17 @@ It will look something like this
 <% code do %>Person.create({:first_name => 'Joe', :last_name => 'Schmoe'})
 <% end %>
 
+Or this
+
+<% code do %>p = Person.create()
+
+p.first_name = 'Joe'
+p.last_name = 'Schmoe'
+
+p.save
+<% end %>
+
+
 h1. Templating
 
 <center>
@@ -732,16 +737,10 @@ h1. What is MVC?
 
 h1. Model
 
-<center>
-!images/data.jpg!
-</center>
-
-h1. Model
-
 h2. Data
 
 <center>
-!images/matrix.jpg!
+!images/data.jpg!
 </center>
 
 h1. Model
@@ -799,19 +798,20 @@ h1. Controller
 
 h1. Controller
 
+h2. Flow control
+
+<center>
+!images/flow.jpg!
+</center>
+
+h1. Controller
+
 h2. The tie that binds
 
 <center>
 !images/controller.jpg!
 </center>
 
-h1. Controller
-
-h2. Flow control
-
-<center>
-!images/flow.jpg!
-</center>
 
 h1. Web *slash* MVC frameworks
 
@@ -833,67 +833,6 @@ h1. Heavy lifting
 <center>
 !images/loader.png!
 </center>
-
-h1. Heavy lifting
-
-h2. Example
-
-<% code do %>ray@itconf:~$ rails new my_sweet_web_app
-      create
-      create  README
-      create  Rakefile
-      create  config.ru
-      create  .gitignore
-      create  Gemfile
-      create  app
-      create  app/controllers/application_controller.rb
-      create  app/helpers/application_helper.rb
-      create  app/views/layouts/application.html.erb
-      create  app/models
-      create  config
-      create  db
-      create  db/seeds.rb
-      create  doc
-      create  doc/README_FOR_APP
-      create  lib
-      create  lib/tasks
-      create  lib/tasks/.gitkeep
-      ...
-      create  vendor/plugins
-      create  vendor/plugins/.gitkeep
-ray@itconf:~$
-<% end %>
-
-h1. Heavy lifting
-
-h2. App structure
-
-<% code do %>.
-├── app
-│   ├── controllers
-│   ├── helpers
-│   ├── models
-│   └── views
-├── config
-├── config.ru
-├── db
-│   └── seeds.rb
-├── Gemfile
-├── lib
-│   └── tasks
-├── Rakefile
-├── README
-├── script
-│   └── rails
-├── tmp
-│   ├── cache
-│   ├── pids
-│   ├── sessions
-│   └── sockets
-└── vendor
-    └── plugins
-
-<% end %>
 
 h1. A circle of trust
 
@@ -1025,6 +964,12 @@ h1. JavaScript frameworks
 !images/js.png!
 </center>
 
+h1. Browser Wars
+
+<center>
+!images/browser-war.png!
+</center>
+
 h1. W3C
 
 <center>
@@ -1037,7 +982,7 @@ h1. ECMAScript/JavaScript
 !images/js.jpg!
 </center>
 
-h1. DOM
+h1. DOM Scripting/DHTML
 
 <center>
 !images/html.svg!
